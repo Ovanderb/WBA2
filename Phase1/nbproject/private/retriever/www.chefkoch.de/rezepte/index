@@ -1,0 +1,1455 @@
+<!doctype html>
+<html lang="de" class="no-js">
+	
+	<head>
+		<meta charset="iso-8859-1">
+				<title>Rezepte bei Chefkoch.de</title>
+				<meta name="description" content="Rezepte suchen & finden - über die Rezeptsuche von Chefkoch.de mit Suchwörtern und Tags schnell zum richtigen Rezept">
+		<meta name="robots" content="index,follow">
+		
+		<link rel="shortcut icon" href="http://img.chefkoch-cdn.de/img/default/favicon.ico">
+		
+				
+						
+					<link rel="alternate" type="application/rss+xml" title="Chefkoch.de: Rezept des Tages (RSS 2.0)" href="http://www.chefkoch.de/rss/rezept-des-tages.php">
+				
+				
+					<link rel="canonical" href="http://www.chefkoch.de/rezepte/">
+				
+				
+							
+							<link rel="stylesheet" href="http://css.chefkoch-cdn.de/css/ck.de/main.css?v=1" media="all">
+							<link rel="stylesheet" href="http://css.chefkoch-cdn.de/css/ck.de/recipes/page-recipes.css?v=1" media="all">
+						
+						
+										
+					<script src="http://js.chefkoch-cdn.de/js/default/jquery/jquery-1.7.2.min.js?v=1"></script>
+					<script src="http://js.chefkoch-cdn.de/js/default/navigation-functions.js?v=1"></script>
+					<script src="http://js.chefkoch-cdn.de/js/ck.de/navigation-data.js?v=1"></script>
+					<script src="http://js.chefkoch-cdn.de/js/default/functions-2012-05-31.js?v=1"></script>
+					<script src="http://js.chefkoch-cdn.de/js/default/jquery/jquery.colorbox-min.js?v=1"></script>
+			</head>
+	<body >
+		
+		<!-- clicktale -->
+		<script>var WRInitTime=(new Date()).getTime();</script>
+		
+		<div id="wrapper">
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!--  Superbanner (Wallpaper)  -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			
+			<span id="banner-wallpaper">
+				<div id="wallpaperbanner"></div>			</span>
+			
+			<div id="page-wrapper">
+				
+								
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<!--  Header (Navigation, Suche, ...)  -->
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				
+				<div id="header" class="header" role="banner">
+					
+						
+	<div id="header-logo">
+		<a href="http://www.chefkoch.de">
+			<img src="http://img.chefkoch-cdn.de/img/ck.de/ck-logo-de.png" width="113" height="75" alt="Chefkoch.de Rezepte Kochrezepte" />
+		</a>
+	</div>
+	
+					
+					<div class="header-wrapper">
+						
+						<div class="header-right">
+							
+							<!-- Links & Flaggen -->
+							<ul class="header-menu">
+								<li><a href="/login.php">Kostenlos registrieren</a></li>
+								<li><a href="/newsletter.php">Newsletter</a></li>
+								<li><a href="/faq/">Hilfe/FAQ</a></li>
+								<li>
+									<a href="http://www.chefkoch.de" class="flag layout-flag-de"></a>
+									<a href="http://www.cooksunited.co.uk" class="flag layout-flag-uk"></a>
+									<a href="http://www.cooksunited.nl" class="flag layout-flag-nl"></a>
+								</li>
+							</ul>
+							
+							<!-- Suche -->
+							<form class="header-search" name="searchform" action="/suche.php" method="get">
+								<input type="text" id="inputfield_quicksearch" name="suche" value=""  class="input-text" placeholder="Suche..."/>
+								<span class="header-select-wrapper">
+									<select name="wo">
+										<option value="0">... überall</option>
+										<option value="4">... nur Magazin</option>
+										<option value="2" selected>... nur Rezepte</option>
+										<option value="1">... nur Foren</option>
+																				<option value="7">... nur Gruppen</option>
+										<option value="3">... nur User</option>
+									</select>
+								</span>
+								<input type="submit" class="input-submit sprite-lupe" value=""/>
+							</form>
+							
+						</div><!-- /header-right -->
+						
+					</div>
+					<!-- ~~~~~~~~~~~~ -->
+					<!--  Navigation  -->
+					<!-- ~~~~~~~~~~~~ -->
+					
+					<div class="nav main-navigation no-touch">
+	<ul class="navigation-top">
+		<li class="startseite">
+			<a href="/" class="mainmenu-startseite">Startseite</a>
+		</li>
+	
+		<li class="magazin">
+			<a href="/magazin/" class="mainmenu has-submenu">Magazin & TV</a>
+			<div class="submenu clearfix">
+				<ul id="submenu-partner">
+					<li class="submenu-headline"><span id="menu-magazin" class="spanlink">Chefkoch.de Magazin</span></li>
+					<li><span id="menu-artikel" class="spanlink">Aktuelle Artikel</span></li>
+					<li class="submenu-headline submenu-headline-spacer"><span id="menu-partner" class="spanlink">Partnermagazine</span></li>
+					<li><span id="menu-aeg" class="spanlink"><b>AEG</b> - perfekt in form und funktion</span></li>
+					<li><span id="menu-qs"  class="spanlink"><b>QS-live</b> - Initiative Qualit&auml;tssicherung</span></li>
+					<li><span id="menu-wge" class="spanlink"><b>WeltGenussErbe</b> - Spezialit&auml;ten aus Bayern</span></li>
+					<li><span id="menu-wmf" class="spanlink"><b>WMF</b> - das Leben schmeckt sch&ouml;n</span></li>
+				</ul>
+				<ul id="submenu-cktv">
+					<li class="submenu-headline"><span id="menu-chefkoch-tv" class="spanlink">chefkoch.tv</span></li>
+					<li><a href="/magazin/6,283,0/Chefkoch/">chefkoch.tv</a></li>
+					<li><span id="menu-chefkoch-tv-forum" class="spanlink">chefkoch.tv Forum</span></li>
+					<li><a href="/user/rezepte/3d77e9e9eac9bbec988309f0ac1be384/chefkoch.html">chefkoch.tv Rezepte</a></li>
+					<li><span id="menu-chefkoch-tv-hilfe" class="spanlink">Hilfe zu chefkoch.tv</span></li>
+				</ul>
+			</div>
+		</li>
+	
+		<li class="rezepte on">
+			<a href="/rezepte/" class="mainmenu has-submenu">Rezepte</a>
+			<div class="submenu clearfix">
+				<ul>
+					<li class="submenu-headline"><span id="menu-rezepte-finden" class="spanlink">Rezepte finden</span></li>
+					<li><span id="menu-rezeptsuche" class="spanlink">Rezeptsuche</span></li>
+					<li><a href="/rezepte/kategorien/">Kategorien</a></li>
+					<li><span id="menu-kochen-ohne-einkaufen" class="spanlink">Resteverwertung</span></li>
+					
+					<li class="submenu-headline submenu-headline-spacer">Empfehlungen</li>
+					<li><span id="menu-chefkoch-tv-rezepte" class="spanlink">chefkoch.tv Rezepte</span></li>
+					<li><a href="/rezeptsammlung/">Rezeptsammlungen</a></li>
+					<li><a href="/rezepte/was-koche-ich-heute/">Was koche ich heute?</a></li>					
+					<li class="submenu-headline submenu-headline-spacer"><span id="menu-rezepte-eintragen" class="spanlink">Rezepte eintragen</span></li>
+					<li><span id="menu-neues-rezept-eintragen" class="spanlink">Neues Rezept eintragen</span></li>
+				</ul>
+				<ul>
+					<li class="submenu-headline"><span id="menu-rezept-aktuelles" class="spanlink">Aktuelles</span></li>
+					<li><span id="menu-rezept-des-tages" class="spanlink">Rezept des Tages</span></li>
+					<li><a href="/rs/s0o3/neue-rezepte.html">Neue Rezepte</a></li>
+					<li><a href="/rezeptbilder.php">Neue Rezeptbilder</a></li>
+					<li><span id="menu-zufallsrezept" class="spanlink">Zufallsrezept</span></li>
+					
+					<li class="submenu-headline submenu-headline-spacer">Markenrezepte</li>
+					<li><span id="menu-marke-galbani" class="marke-galbani spanlink"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/galbani/galbani_logo_mini.gif" alt="" />Galbani</span></li>
+					<li><span id="menu-marke-henglein" class="marke-henglein spanlink"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/henglein/henglein_logo_mini.gif" alt="" />Henglein</span></li>
+					<li><span id="menu-marke-milram" class="marke-milram spanlink"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/milram/milram_logo_mini.gif" />Milram</span></li>
+					<li><span id="menu-marke-rama" class="marke-rama spanlink"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/rama/rama_logo_mini.gif" alt="" />Rama Cremefine</span></li>
+					<li><span id="menu-marke-toppits" class="marke-toppits spanlink"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/toppits/toppits_logo_mini.gif" alt="" />Toppits</span></li>
+				</ul>
+			</div>
+		</li>
+	
+		<li class="community">
+			<a href="/forum/" class="mainmenu has-submenu">Community</a>
+			<div class="submenu clearfix">
+				<ul>
+					<li class="submenu-headline"><span id="menu-foren" class="spanlink">Foren</span></li>
+					<li><span id="menu-foren-kochen" class="spanlink">Kochen</span></li>
+					<li><span id="menu-foren-backen" class="spanlink">Backen</span></li>
+					<li><span id="menu-foren-getraenke" class="spanlink">Getr&auml;nke</span></li>
+					<li><span id="menu-foren-sonstige" class="spanlink">Sonstige Kochthemen</span></li>
+					<li><span id="menu-foren-lifestyle" class="spanlink">Lifestyle</span></li>
+					<li><span id="menu-foren-plauderecke" class="spanlink">Plauderecke/Sonstiges</span></li>
+					<li class="submenu-headline-spacer"><span id="menu-foren-moderatoren" class="spanlink">Forenmoderatoren</span></li>
+					<li><span id="menu-foren-suche" class="spanlink">Forensuche</span></li>
+					<li><span id="menu-foren-aktuell" class="spanlink">Aktuelle Beitr&auml;ge</span></li>
+				</ul>
+				<ul>
+					<li class="submenu-headline">Weitere Inhalte</li>
+					<li><span id="menu-chefkoch-gruppen" class="spanlink">Chefkoch Gruppen</span></li>
+					<li><span id="menu-userblogs" class="spanlink">Blogs unserer User</span></li>
+					<li><span id="menu-fotoalben" class="spanlink">Fotoalben</span></li>
+					<li><span id="menu-umfragen" class="spanlink">Umfragen</span></li>
+
+					<li class="submenu-headline submenu-headline-spacer"><span id="menu-aktive-user" class="spanlink">Aktive User</span></li>
+					<li><span id="menu-hitliste" class="spanlink">Hitliste</span></li>
+					
+					<li class="submenu-headline submenu-headline-spacer"><span id="menu-fanshop" class="spanlink">Fanshop</span></li>
+					<li><span id="menu-fanartikel" class="spanlink">Chefkoch Fanartikel</span></li>
+				</ul>
+			</div>
+		</li>	
+		<li id="menu-right">
+			<a href="/user/profil/" class="mainmenu has-submenu">myChefkoch</a>
+			<div class="submenu clearfix align-right">
+				<ul>
+					<li class="submenu-headline">Rezepte</li>
+					<li><span id="menu-myck-meinkochbuch" class="spanlink">Mein Kochbuch</span></li>
+					<li><span id="menu-myck-rezepteinstellen" class="spanlink">Rezept einstellen</span></li>
+					<li><span id="menu-myck-meinerezeptfotos" class="spanlink">Meine Rezeptfotos</span></li>
+					<li><span id="menu-myck-privatrezepteinstellen" class="spanlink">Privatrezept einstellen</span></li>
+					<li class="submenu-headline submenu-headline-spacer">Profil</li>
+					<li><span id="menu-myck-meineprofilseite" class="spanlink">Meine Profilseite</span></li>
+					<li><span id="menu-myck-einstellungen" class="spanlink">Einstellungen</span></li>
+				</ul>
+				<ul>
+					<li class="submenu-headline">Community</li>
+					<li><span id="menu-myck-forenfavoriten" class="spanlink">Foren Favoriten</span></li>
+					<li><span id="menu-myck-meinpostfach" class="spanlink">Mein Postfach</span></li>
+					<li><span id="menu-myck-meinegruppen" class="spanlink">Meine Gruppen</span></li>
+					<li><span id="menu-myck-meinefreunde" class="spanlink">Meine Freunde</span></li>
+					<li><span id="menu-myck-meinefotoalben" class="spanlink">Meine Fotoalben</span></li>
+					<li><span id="menu-myck-meinblog" class="spanlink">Mein Blog</span></li>
+					<li class="submenu-headline submenu-headline-spacer">Anmeldung</li>
+											<li><span id="menu-myck-login" class="spanlink">Login</span></li>
+						<li><span id="menu-myck-registrierung" class="spanlink">Registrierung</span></li>
+										<li><span id="menu-myck-club" class="spanlink">Chefkoch.de Club</span></li>
+				</ul>
+			</div>
+		</li>
+				<li id="menu-login">
+			<a href="/login.php" class="mainmenu has-submenu" id="loginlink">Login</a>
+		<div class="submenu submenu-login align-right">
+			<strong>Jetzt anmelden</strong>
+			<form action="https://www.chefkoch.de/login.php" method="post" id="login">
+				<p>
+					<label for="username">Benutzername:</label><br/>
+					<input name="username" type="text" class="login" id="username" tabindex="100" value="" maxlength="32" />
+				</p>
+				<p>
+					<label for="password">Passwort:</label><br/>
+					<input name="password" type="password" class="login" id="password" tabindex="101" maxlength="32" />
+				</p>
+				<p>
+					<input name="setalltimelogin" type="checkbox" id="setalltimelogin" tabindex="102" value="1">
+										<label for="setalltimelogin"> <acronym title="Speichert Ihre Details in einem 'Cookie', so dass Sie diese beim nächsten Besuch nicht mehr einzugeben brauchen">Eingeloggt bleiben</acronym></label>
+				</p>
+				<p>
+					<input type="submit" class="button-green" value="Einloggen" tabindex="103"> <a href="/userdatalost.php">Daten vergessen?</a>
+				</p>
+			</form>
+			<hr>
+			<strong>Noch nicht registriert?</strong>
+			<p><a href="/register/index.php">Hier können Sie sich kostenlos registrieren</a>.</p>
+		</div>
+	</li>	</ul>
+</div>					
+				</div><!-- /header --><div id="page">
+	<div class="content-wrapper">
+		
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+		<!--  Breadcrumb Navigation  -->
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+		<div id="breadcrumb" role="navigation" class="nav">
+			&raquo; <a href="/">Startseite</a>
+			&raquo; Rezeptsuche
+		</div>
+		
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~ -->
+		<!--  Superbanner (mittig)  -->
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~ -->
+		
+		<div id="banner-top">
+			<div id="topbanner"></div>		</div>
+		
+	</div><!-- /content-wrapper -->
+	
+	<!-- ~~~~~~~~~ -->
+	<!--  Content  -->
+	<!-- ~~~~~~~~~ -->
+	
+	<div class="content-wrapper clearfix">
+		
+		<div id="content-1" class="content">
+			
+			<div class="content-box">
+				
+									
+					<form action="/rezept-suche-redirect.php" method="get" name="suchform">
+						
+						<input type="hidden" name="advanced_search_checkbox" value="1">
+						
+						<div class="content-box-gradient">
+							<div class="content-box-padding">
+								
+								<!-- ~~~~~~~~~~~~~ -->
+								<!--  Rezeptsuche  -->
+								<!-- ~~~~~~~~~~~~~ -->
+								
+								<h1 class="nomargin extended-search-headline">Rezeptsuche <a id="extended-search-help-icon" href="#extended-search-help" class="icon-help" title="Hilfe"></a></h1><br />
+								
+								<p>
+									<input type="text" name="Suchbegriff" value="" id="extended-search-string">
+									<input id="extended-search-submit" type="image" src="http://img.chefkoch-cdn.de/img/default/icons/icon-magnifier.png" alt="suchen">
+								</p>
+								
+								<a href="#" class="toggle-advanced-search messages-sidebar-plusbutton">Erweiterte Suche</a>
+								
+							</div><!-- /content-box-padding -->
+						</div><!-- /content-box-gradient -->
+						
+						<div class="content-box-padding clearfix" id="advanced-search">
+							
+							<!-- ~~~~~~~~~~~~~~~~~~ -->
+							<!--  Erweiterte Suche  -->
+							<!-- ~~~~~~~~~~~~~~~~~~ -->
+							
+							<h2>Erweiterte Suche</h2>
+							
+							<div class="advanced-search-floater">
+								
+								<p><input type="checkbox" name="suche" id="suche" value="1" checked> <label for="suche">Rezeptnamen durchsuchen</label></p>
+								<p><input type="checkbox" name="suche2" id="suche2" value="2" checked> <label for="suche2">Zutaten durchsuchen</label></p>
+								<p><input type="checkbox" name="suche3" id="suche3" value="4"> <label for="suche3">Beschreibungen durchsuchen</label></p>
+								<p><input type="checkbox" name="bild" id="bild"> <label for="bild">nur mit Bild</label></p>
+								
+							</div>
+							
+							<div class="advanced-search-floater">
+								
+								<p><input type="text" size="3" maxlength="5" name="dauer" value="" /> max. Arbeitszeit in Min.</p>
+								<p><input type="text" size="3" maxlength="5" name="kcal" value="" /> max. Kalorien in kcal</p>
+								<p><input type="text" size="3" maxlength="5" name="datum" value="" /> max. Alter der Rezepte in Tagen</p>
+								
+							</div>
+							
+						</form>
+						
+										
+				</div><!-- /content-box-padding -->
+			</div><!-- /content-box -->
+			
+
+					
+					<!-- ~~~~~~~~~~~~~ -->
+					<!--  Rezept-Tags  -->
+					<!-- ~~~~~~~~~~~~~ -->
+					
+					<ul id="recipe-tag-list" class="clearfix">
+						<li class="recipe-tag-list-left">
+							<div class="recipe-tag-list-padding">
+								<h2 id="recipes-dish">Speiseart</h2>
+								<a href="/rs/s0t30/Auflauf-Rezepte.html" title="Auflauf Rezepte">Auflauf</a>,
+								<a href="/rs/s0t51/Aufstrich-Rezepte.html" title="Aufstrich Rezepte">Aufstrich</a>,
+								<a href="/rs/s0t46/Brotspeise-Rezepte.html" title="Brotspeise Rezepte">Brotspeise</a>,
+								<a href="/rs/s0t98/Eier-Rezepte.html" title="Eierspeise Rezepte">Eierspeise</a>,
+								<a href="/rs/s0t81/Eintopf-Rezepte.html" title="Eintopf Rezepte">Eintopf</a>,
+								<a href="/rs/s0t100/Mehlspeisen-Rezepte.html" title="Mehlspeisen Rezepte">Mehlspeisen</a>,
+								<a href="/rs/s0t31/Pasta-Rezepte.html" title="Pasta Rezepte">Pasta</a>,
+								<a href="/rs/s0t82/Pizza-Rezepte.html" title="Pizza Rezepte">Pizza</a>,
+								<a href="/rs/s0t15/Salat-Rezepte.html" title="Salat Rezepte">Salat</a>,
+								<a href="/rs/s0t34/Saucen-Rezepte.html" title="Saucen Rezepte">Saucen</a>,
+								<a href="/rs/s0t40/Suppe-Rezepte.html" title="Suppen Rezepte">Suppen</a>,
+								<a href="/rs/s0t89/Suessspeise-Rezepte.html" title="Süßspeisen Rezepte">Süßspeisen</a>,
+								<a href="/rs/s0t32/Vegetarisch-Rezepte.html" title="Vegetarisch Rezepte">Vegetarisch</a>
+							</div>
+						</li>
+						
+						<li class="recipe-tag-list-right">
+							<div class="recipe-tag-list-padding">															
+								<h2 id="recipes-incredients">Rezepte nach Zutat</h2>						
+								<a href="/rs/s0t24/Nudeln-Rezepte.html" title="Nudeln Rezepte">Nudeln</a>,
+								<a href="/rs/s0t37/Reis-Rezepte.html" title="Reis Rezepte">Reis</a>,
+								<a href="/rs/s0t138/Kartoffeln-Rezepte.html" title="Kartoffeln Rezepte">Kartoffeln</a>,
+								<a href="/rs/s0t61/Fisch-Rezepte.html" title="Fisch Rezepte">Fisch</a>,
+								<a href="/rs/s0t26/Krustentier-oder-Muscheln-Rezepte.html" title="Krustentier & Muscheln Rezepte">Krustentier & Muscheln</a>,
+								<a href="/rs/s0o6t16/Fleisch-Rezepte.html" title="Fleisch Rezepte">Fleisch</a>,
+								<a href="/rs/s0t109/Frucht-Rezepte.html" title="Frucht Rezepte">Frucht</a>,
+								<a href="/rs/s0t18/Gemuese-Rezepte.html" title="Gemüse Rezepte">Gemüse</a>,
+								<a href="/rs/s0t165/Huelsenfruechte-Rezepte.html" title="Hülsenfrüchte Rezepte">Hülsenfrüchte</a>,
+								<a href="/rs/s0t83/Kaese-Rezepte.html" title="Käse Rezepte">Käse</a>
+							</div>
+						</li>
+						
+						<li class="recipe-tag-list-left">
+							<div class="recipe-tag-list-padding">
+								<h2 id="recipes-menu">Menüart</h2>
+								<a href="/rs/s0t36/Beilage-Rezepte.html" title="Beilage Rezepte">Beilage</a>,
+								<a href="/rs/s0t90/Dessert-Rezepte.html" title="Dessert Rezepte">Dessert</a>,
+								<a href="/rs/s0t53/Fruehstueck-Rezepte.html" title="Frühstück Rezepte">Frühstück</a>,
+								<a href="/rs/s0t21/Hauptspeise-Rezepte.html" title="Hauptspeise Rezepte">Hauptspeise</a>,
+								<a href="/rs/s0t19/Vorspeise-Rezepte.html" title="Vorspeisen Rezepte">Vorspeisen</a>,
+								<a href="/rs/s0t71/Snack-Rezepte.html" title="Snacks und kleine Gerichte Rezepte">Snacks und kleine Gerichte</a>
+							</div>
+						</li>
+						
+						<li class="recipe-tag-list-right">
+							<div class="recipe-tag-list-padding">
+								<h2 id="recipes-bake">Back- & Dessertrezepte</h2>
+								<a href="/rs/s0t23/Backen-Rezepte.html">Backen</a>,
+								<a href="/rs/s0t23,108/Backen-Brot-oder-Broetchen-Rezepte.html" title="Brot und Brötchen Rezepte">Brot und Brötchen</a>,
+								<a href="/rs/s0t23,104/Backen-Creme-Rezepte.html" title="Cremes Rezepte">Cremes</a>,
+								<a href="/rs/s0t127/Eis-Rezepte.html" title="Eis Rezepte">Eis</a>,
+								<a href="/rs/s0t23,147/Backen-Kekse-Rezepte.html" title="Kekse & Plätzchen Rezepte">Kekse & Plätzchen</a>,
+								<a href="/rs/s0t157/Konfiserie-Rezepte.html" title="Konfiserie Rezepte">Konfiserie</a>,
+								<a href="/rs/s0t23,92/Backen-Kuchen-Rezepte.html" title="Kuchen Rezepte">Kuchen</a>,
+								<a href="/rs/s0t23,122/Backen-Tarte-Rezepte.html" title="Tarte Rezepte">Tarte</a>,
+								<a href="/rs/s0t23,93/Backen-Torte-Rezepte.html" title="Torten Rezepte">Torten</a>
+							</div>
+						</li>
+						
+						<li class="recipe-tag-list-left">
+							<div class="recipe-tag-list-padding">							
+								<h2 id="recipes-drinks">Getränke</h2>
+								<a href="/rs/s0t11/Getraenk-Rezepte.html">Getränke</a>,
+								<a href="/rs/s0t11,121/Getraenk-Bowle-Rezepte.html" title="Bowle Rezepte">Bowle</a>,
+								<a href="/rs/s0t11,10/Getraenk-Cocktail-Rezepte.html" title="Cocktail Rezepte">Cocktails</a> (<a href="/rezept-tags/11,126,10/0,0,0/Getraenk-alkoholfrei-Cocktail-Rezepte.html" title="Alkoholfreie Cocktail Rezepte">alkoholfrei</a>),
+								<a href="/rs/s0t11,156/Getraenk-Kaffee-Tee-oder-Kakao-Rezepte.html" title="Kaffee, Tee & Kakao Rezepte">Kaffee, Tee & Kakao</a>,
+								<a href="/rs/s0t11,151/Getraenk-Likoer-Rezepte.html" title="Likör Rezepte">Likör</a>,
+								<a href="/rs/s0t11,142/Getraenk-Punsch-Rezepte.html" title="Punsch Rezepte">Punsch</a>,
+								<a href="/rs/s0t11,113/Getraenk-Shake-Rezepte.html" title="Shake Rezepte">Shake</a>
+							</div>
+						</li>
+						
+						<li class="recipe-tag-list-right">
+							<div class="recipe-tag-list-padding">							
+								<h2 id="recipes-seasons">Saisonale Rezepte</h2>
+								<a href="/rs/s0t78/Fruehling-Rezepte.html" title="Frühling Rezepte">Frühling</a>,
+								<a href="/rs/s0t120/Ostern-Rezepte.html" title="Ostern Rezepte">Ostern</a>,
+								<a href="/rs/s0t87/Silvester-Rezepte.html" title="Silvester Rezepte">Silvester</a>,
+								<a href="/rs/s0t27/Sommer-Rezepte.html" title="Sommer Rezepte">Sommer</a>,
+								<a href="/rs/s0t99/Herbst-Rezepte.html" title="Herbst Rezepte">Herbst</a>,
+								<a href="/rs/s0t39/Halloween-Rezepte.html" title="Halloween Rezepte">Halloween</a>,
+								<a href="/rs/s0t102/Weihnachten-Rezepte.html" title="Weihnachtsrezepte">Weihnachten</a>,
+								<a href="/rs/s0t64/Winter-Rezepte.html" title="Winter Rezepte">Winter</a>
+							</div>
+						</li>
+						
+						<li class="recipe-tag-list-left recipe-tag-list-high">
+							<div class="recipe-tag-list-padding">							
+								<h2 id="recipes-regions">Regionale Rezepte</h2>
+								<a href="/rs/s0t101/Afrika-Rezepte.html" title="Afrika Rezepte">Afrika</a>,
+								<a href="/rs/s0t38/USA-oder-Kanada-Rezepte.html" title="Amerika Rezepte">USA oder Kanada</a>,
+								<a href="/rs/s0t14/Asien-Rezepte.html" title="asiatische Rezepte">Asien</a>
+								(<a href="/rs/s0t14,76/Asien-China-Rezepte.html" title="China Rezepte">China</a>,
+								<a href="/rs/s0t14,13/Asien-Indien-Rezepte.html" title="Indien Rezepte">Indien</a>,
+								<a href="/rs/s0t14,148/Asien-Japan-Rezepte.html" title="Japan Rezepte">Japan</a>,
+								<a href="/rs/s0t14,123/Asien-Thailand-Rezepte.html" title="Thailand Rezepte">Thailand</a>),
+								<a href="/rs/s0t145/Australien-Rezepte.html" title="Australien Rezepte">Australien</a>,
+								<a href="/rs/s0t29/Europa-Rezepte.html" title="Europa Rezepte">Europa</a>
+								(<a href="/rs/s0t29,65/Europa-Deutschland-Rezepte.html" title="Deutschland Rezepte">Deutschland</a>,
+								<a href="/rs/s0t29,84/Europa-Frankreich-Rezepte.html" title="Frankreich Rezepte">Frankreich</a>,
+								<a href="/rs/s0t29,44/Europa-Griechenland-Rezepte.html" title="Griechenland Rezepte">Griechenland</a>,
+								<a href="/rs/s0t29,117/Europa-Grossbritannien-Rezepte.html" title="Grossbritannien Rezepte">Grossbritannien</a>,
+								<a href="/rs/s0t29,28/Europa-Italien-Rezepte.html" title="Italienische Rezepte">Italien</a>,
+								<a href="/rs/s0t29,72/Europa-Oesterreich-Rezepte.html" title="Österreich Rezepte">Österreich</a>,
+								<a href="/rs/s0t29,149/Europa-Portugal-Rezepte.html" title="Portugal Rezepte">Portugal</a>,
+								<a href="/rs/s0t29,43/Europa-Spanien-Rezepte.html" title="Spanien Rezepte">Spanien</a>,
+								<a href="/rs/s0t103/Tuerkei-Rezepte.html" title="Türkei Rezepte">Türkei</a>)
+								<a href="/rs/s0t95/Karibik-und-Exotik-Rezepte.html" title="Karibik & Exotik Rezepte">Karibik & Exotik</a>,
+								<a href="/rs/s0t163/Mittlerer-und-Naher-Osten-Rezepte.html" title="Mittlerer und Naher Osten Rezepte">Mittlerer und Naher Osten</a>,
+								<a href="/rs/s0t86/Osteuropa-Rezepte.html" title="Osteuropa Rezepte">Osteuropa</a>
+							</div>
+						</li>
+						
+						<li class="recipe-tag-list-right recipe-tag-list-high">
+							<div class="recipe-tag-list-padding">				
+								<h2 id="recipes-specials">Spezielle Rezepte</h2>
+								<a href="/rs/s0t79/Basisrezepte-Rezepte.html" title="Grundrezepte Rezepte">Basisrezepte</a>,
+								<a href="/rs/s0t111/Babynahrung-Rezepte.html" title="Babynahrung Rezepte">Babynahrung</a>,
+								<a href="/rs/s0t152/Camping-Rezepte.html" title="Camping Rezepte">Camping</a>,
+								<a href="/rs/s0t150/Haltbarmachen-Rezepte.html" title="Haltbarmachen Rezepte">Haltbarmachen</a>,
+								<a href="/rs/s0t106/Festlich-Rezepte.html" title="Festlich Rezepte">Festlich</a>,
+								<a href="/rs/s0t146/Geheimrezept-Rezepte.html" title="Geheimrezepte Rezepte">Geheimrezepte</a>,
+								<a href="/rs/s0t63/Grillen-Rezepte.html" title="Grillen Rezepte">Grillen</a>,
+								<a href="/rs/s0t91/Kinder-Rezepte.html" title="Kinder Rezepte">Kinder</a>,
+								<a href="/rs/s0t45/Party-Rezepte.html" title="Party Rezepte">Party</a>,
+								<a href="/rs/s0t110/Resteverwertung-Rezepte.html" title="Resteverwertung Rezepte">Resteverwertung</a>
+							</div>
+						</li>
+					</ul>
+					
+
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~ -->
+			<!--  Neue Rezeptbilder  -->
+			<!-- ~~~~~~~~~~~~~~~~~~~ -->
+			
+			<div class="content-box">
+				<div class="content-box-gradient">
+					
+					<div class="content-box-padding">
+						
+						<h2 class="nomargin">Neue freigeschaltete Rezeptbilder</h2>
+						
+					</div><!-- /content-box-padding -->
+				</div><!-- /content-box-gradient -->
+				
+				<div id="recipe-images-wrapper">
+											
+						<a href="/rezepte/319001113649511/B-chamelsauce.html"><img src="http://static.chefkoch-cdn.de/ck.de/rezepte/31/31900/543683-tiniefix-b-chamelsauce.jpg" title="B&eacute;chamelsauce"></a>
+						
+											
+						<a href="/rezepte/787851182153085/Knackiger-Salat-nach-griechischer-Art.html"><img src="http://static.chefkoch-cdn.de/ck.de/rezepte/78/78785/543682-tiniefix-knackiger-salat-nach-griechischer-art.jpg" title="Knackiger Salat nach griechischer Art"></a>
+						
+											
+						<a href="/rezepte/596081159261801/Butterkeks-Himbeer-Kuchen.html"><img src="http://static.chefkoch-cdn.de/ck.de/rezepte/59/59608/543689-tiniefix-butterkeks-himbeer-kuchen.jpg" title="Butterkeks - Himbeer - Kuchen"></a>
+						
+											
+						<a href="/rezepte/190331081069207/Rinderroulade.html"><img src="http://static.chefkoch-cdn.de/ck.de/rezepte/19/19033/543685-tiniefix-rinderroulade.jpg" title="Rinderroulade"></a>
+						
+											
+						<a href="/rezepte/122921052832054/Karotten-Quark-Bratlinge.html"><img src="http://static.chefkoch-cdn.de/ck.de/rezepte/12/12292/543687-tiniefix-karotten-quark-bratlinge.jpg" title="Karotten - Quark - Bratlinge"></a>
+						
+											
+						<a href="/rezepte/596081159261801/Butterkeks-Himbeer-Kuchen.html"><img src="http://static.chefkoch-cdn.de/ck.de/rezepte/59/59608/543690-tiniefix-butterkeks-himbeer-kuchen.jpg" title="Butterkeks - Himbeer - Kuchen"></a>
+						
+									</div>
+				
+				<div class="content-box-padding">
+					<a href="/rezeptbilder/">Mehr neue Bilder...</a>
+				</div><!-- /content-box-padding -->
+				
+			</div><!-- /content-box -->
+			
+		</div><!-- /content-1 -->
+		
+		<!-- ~~~~~~~~~ -->
+		<!--  SIDEBAR  -->
+		<!-- ~~~~~~~~~ -->
+		
+		<div id="sidebar">
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!--  Sidebar: Rezeptlinks  -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~ -->
+			
+			<div class="sidebar-box">
+				<div class="sidebar-box-gradient">
+					
+					<div class="sidebar-box-headline">Nützliche Rezeptlinks</div>
+					
+					<div class="sidebar-box-padding">
+						
+						<ul class="sidebar-list">
+							<li><a href="/rs/s0o3/neue-rezepte.html" title="Täglich neue Rezepte"><strong>Neue Rezepte</strong></a></li>
+							<li><a href="/rezeptbilder/" title="Neue freigeschaltete Rezeptbilder"><strong>Neue Rezeptbilder</strong></a></li>
+							<li><a href="/rezeptsammlung/" title="Kochbücher anderer Nutzer"><strong>Rezeptsammlungen</strong></a></li>
+							<li><a href="/rezepte/zufallsrezept/?t=1363607808" title="Zufälliges Rezept aus der Datenbank"><strong>Zufallsrezept</strong></a></li>
+							<li><a href="/rezept-reste.php" title="Sie haben Zutaten und wissen nicht was Sie damit kochen können?"><strong>Zutatenverwertung</strong></a><br/><br/></li>
+							
+							<li><a href="/rezept-des-tages.php" title="Täglich frisch: redaktionell ausgesuchte Rezepte"><strong>Rezept des Tages</strong></a></li>
+							<li><a href="/newsletter.php">... als Newsletter</a></li>
+							<li><a href="/napping/">... für Ihre Homepage</a><br/><br/></li>
+							
+							<li><a href="/rezepteingabe/" title="Geben Sie Ihre Rezepte in die Datenbank ein!"><strong>Rezepte einsenden</strong></a></li>
+						</ul>
+						
+					</div><!-- /sidebar-box-padding -->
+					
+				</div><!-- /sidebar-box-gradient -->
+			</div><!-- /sidebar-box -->
+			
+			<!-- ~~~~~~~~~~~~~~~~~~ -->
+			<!--  Rezept des Tages  -->
+			<!-- ~~~~~~~~~~~~~~~~~~ -->
+			
+			<div id="recipe-of-the-day" class="sidebar-box">
+				<div class="sidebar-box-gradient">
+					
+					<div class="sidebar-box-headline clearfix">
+						<a href="/rezept-des-tages.php" class="rss-icon-link" title="Rezepte der Woche als Newsfeed abonnieren"></a>
+						Rezept des Tages
+					</div>
+					
+					<div class="sidebar-box-padding clearfix">
+						
+													
+							<ul class="teaser-list-small">
+																	
+									<li class="teaser-list-small-item clearfix ">
+										
+										<div class="teaser-list-small-img">
+											<a href="/rezepte/1746701283927011/Koettbullar-mit-Champignon-Rahmsauce.html">
+																									
+													<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/174/174670/280309-thumbfix-koettbullar-mit-champignon-rahmsauce.jpg" alt="K&ouml;ttbullar mit Champignon-Rahmsauce" title="K&ouml;ttbullar mit Champignon-Rahmsauce" width="70" height="50">
+													
+																							</a>
+										</div>
+										<div class="teaser-list-small-txt">
+											<div class="teaser-list-small-title">
+												<a href="/rezepte/1746701283927011/Koettbullar-mit-Champignon-Rahmsauce.html">Köttbullar mit Champignon-Rahmsauce</a>
+											</div>
+										</div>
+										
+									</li>
+									
+																	
+									<li class="teaser-list-small-item clearfix moreteaser">
+										
+										<div class="teaser-list-small-img">
+											<a href="/rezepte/95971037885311/Ungarische-Reispfanne.html">
+																									
+													<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/9/9597/76676-thumbfix-ungarische-reispfanne.jpg" alt="Ungarische Reispfanne" title="Ungarische Reispfanne" width="70" height="50">
+													
+																							</a>
+										</div>
+										<div class="teaser-list-small-txt">
+											<div class="teaser-list-small-title">
+												<a href="/rezepte/95971037885311/Ungarische-Reispfanne.html">Ungarische Reispfanne</a>
+											</div>
+										</div>
+										
+									</li>
+									
+																	
+									<li class="teaser-list-small-item clearfix moreteaser">
+										
+										<div class="teaser-list-small-img">
+											<a href="/rezepte/329381115558664/Westernauflauf.html">
+																									
+													<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/32/32938/26631-thumbfix-westernauflauf.jpg" alt="Westernauflauf" title="Westernauflauf" width="70" height="50">
+													
+																							</a>
+										</div>
+										<div class="teaser-list-small-txt">
+											<div class="teaser-list-small-title">
+												<a href="/rezepte/329381115558664/Westernauflauf.html">Westernauflauf</a>
+											</div>
+										</div>
+										
+									</li>
+									
+																	
+									<li class="teaser-list-small-item clearfix moreteaser">
+										
+										<div class="teaser-list-small-img">
+											<a href="/rezepte/1328731237708868/Nudeln-nepalesische-Art.html">
+																									
+													<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/132/132873/166701-thumbfix-nudeln-nepalesisch.jpg" alt="Nudeln nepalesische Art" title="Nudeln nepalesische Art" width="70" height="50">
+													
+																							</a>
+										</div>
+										<div class="teaser-list-small-txt">
+											<div class="teaser-list-small-title">
+												<a href="/rezepte/1328731237708868/Nudeln-nepalesische-Art.html">Nudeln nepalesische Art</a>
+											</div>
+										</div>
+										
+									</li>
+									
+																	
+									<li class="teaser-list-small-item clearfix moreteaser">
+										
+										<div class="teaser-list-small-img">
+											<a href="/rezepte/592161158763218/Bouillabaisse.html">
+																									
+													<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/59/59216/103140-thumbfix-bouillabaisse.jpg" alt="Bouillabaisse" title="Bouillabaisse" width="70" height="50">
+													
+																							</a>
+										</div>
+										<div class="teaser-list-small-txt">
+											<div class="teaser-list-small-title">
+												<a href="/rezepte/592161158763218/Bouillabaisse.html">Bouillabaisse</a>
+											</div>
+										</div>
+										
+									</li>
+									
+																	
+									<li class="teaser-list-small-item clearfix moreteaser">
+										
+										<div class="teaser-list-small-img">
+											<a href="/rezepte/428511133871292/Spreewaelder-Buttermilch-Hefeplinsen.html">
+																									
+													<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/42/42851/62624-thumbfix-spreewaelder-buttermilch-hefeplinsen.jpg" alt="Spreew&auml;lder Buttermilch-Hefeplinsen" title="Spreew&auml;lder Buttermilch-Hefeplinsen" width="70" height="50">
+													
+																							</a>
+										</div>
+										<div class="teaser-list-small-txt">
+											<div class="teaser-list-small-title">
+												<a href="/rezepte/428511133871292/Spreewaelder-Buttermilch-Hefeplinsen.html">Spreewälder Buttermilch-Hefeplinsen</a>
+											</div>
+										</div>
+										
+									</li>
+									
+																	
+									<li class="teaser-list-small-item clearfix moreteaser">
+										
+										<div class="teaser-list-small-img">
+											<a href="/rezepte/1021781207386060/Asiatisch-fraenkischer-Tafelspitz-Brezenkloss-und-Meerrettichcreme.html">
+																									
+													<img src="http://img.chefkoch-cdn.de/img/default/placeholder/placeholder-photo-70x50.png" alt="Asiatisch - fr&auml;nkischer Tafelspitz, Brezenklo&szlig; und Meerrettichcreme" title="Asiatisch - fr&auml;nkischer Tafelspitz, Brezenklo&szlig; und Meerrettichcreme" width="70" height="50">
+													
+																							</a>
+										</div>
+										<div class="teaser-list-small-txt">
+											<div class="teaser-list-small-title">
+												<a href="/rezepte/1021781207386060/Asiatisch-fraenkischer-Tafelspitz-Brezenkloss-und-Meerrettichcreme.html">Asiatisch - fränkischer Tafelspitz, Brezenkloß und Meerrettichcreme</a>
+											</div>
+										</div>
+										
+									</li>
+									
+																
+							</ul>
+							
+												
+					</div><!-- /sidebar-box-padding -->
+					
+				</div><!-- /sidebar-box-gradient -->
+			</div><!-- /sidebar-box (#recipe-of-the-day) -->
+			<div class="sidebar-box-bottomlink slidedown-teaserbox"><a class="no-underline" href="/rezept-des-tages.php">Zeige alle Rezepte der Woche</a></div>
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~ -->
+			<!--  Was koche ich heute? -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~ -->
+			
+						<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!--  Was-koche-ich-heute-Teaser  -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<div class="content-box" id="what-to-cook-today-box">
+	<div class="content-box-gradient clearfix">
+
+		<div class="content-box-headline">Was koche ich heute?</div>
+		<div class="content-box-padding">
+			
+			<a href="/rezepte/was-koche-ich-heute/">
+				<img src="http://img.chefkoch-cdn.de/img/ck.de/was-koche-ich-heute.png" alt="Was koche ich heute?" width="278" height="236" />
+			</a>
+			
+		</div><!-- /sidebar-box-padding -->
+	</div><!-- /sidebar-box-gradient -->
+</div><!-- /sidebar-box -->			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!--  Sidebar: Search-Cloud  -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+			
+			<div class="sidebar-box">
+				<div class="sidebar-box-gradient">
+					
+					<div class="sidebar-box-headline">Aktuelle Suchen</div>
+					
+					<div class="sidebar-box-padding">
+						
+						<ul class="tagcloud">
+															
+																									<a href="/rs/s0/apfelkuchen/Rezepte.html" title="Rezepte zu apfelkuchen" class="rztag-x-large">apfelkuchen</a>
+																
+															
+																									<a href="/rs/s0/auflauf/Rezepte.html" title="Rezepte zu auflauf" class="rztag-x-small">auflauf</a>
+																
+															
+																									<a href="/rs/s0/blechkuchen/Rezepte.html" title="Rezepte zu blechkuchen" class="rztag-x-small">blechkuchen</a>
+																
+															
+																									<a href="/rs/s0/bl%E4tterteig/Rezepte.html" title="Rezepte zu blätterteig" class="rztag-x-small">blätterteig</a>
+																
+															
+																									<a href="/rs/s0/brownies/Rezepte.html" title="Rezepte zu brownies" class="rztag-x-small">brownies</a>
+																
+															
+																									<a href="/rs/s0/cake+pops/Rezepte.html" title="Rezepte zu cake pops" class="rztag-small">cake pops</a>
+																
+															
+																									<a href="/rs/s0/chili+con+carne/Rezepte.html" title="Rezepte zu chili con carne" class="rztag-small">chili con carne</a>
+																
+															
+																									<a href="/rs/s0/crepe/Rezepte.html" title="Rezepte zu crepe" class="rztag-x-small">crepe</a>
+																
+															
+																									<a href="/rs/s0/cupcake/Rezepte.html" title="Rezepte zu cupcake" class="rztag-small">cupcake</a>
+																
+															
+																									<a href="/rs/s0/cupcakes/Rezepte.html" title="Rezepte zu cupcakes" class="rztag-small">cupcakes</a>
+																
+															
+																									<a href="/rs/s0/eierkuchen/Rezepte.html" title="Rezepte zu eierkuchen" class="rztag-x-small">eierkuchen</a>
+																
+															
+																									<a href="/rs/s0/fantakuchen/Rezepte.html" title="Rezepte zu fantakuchen" class="rztag-x-small">fantakuchen</a>
+																
+															
+																									<a href="/rs/s0/flammkuchen/Rezepte.html" title="Rezepte zu flammkuchen" class="rztag-small">flammkuchen</a>
+																
+															
+																									<a href="/rs/s0/gef%FCllte+paprika/Rezepte.html" title="Rezepte zu gefüllte paprika" class="rztag-small">gefüllte paprika</a>
+																
+															
+																									<a href="/rs/s0/gulasch/Rezepte.html" title="Rezepte zu gulasch" class="rztag-medium">gulasch</a>
+																
+															
+																									<a href="/rs/s0/hackbraten/Rezepte.html" title="Rezepte zu hackbraten" class="rztag-small">hackbraten</a>
+																
+															
+																									<a href="/rs/s0/hefezopf/Rezepte.html" title="Rezepte zu hefezopf" class="rztag-x-small">hefezopf</a>
+																
+															
+																									<a href="/rs/s0/kaiserschmarrn/Rezepte.html" title="Rezepte zu kaiserschmarrn" class="rztag-x-small">kaiserschmarrn</a>
+																
+															
+																									<a href="/rs/s0/kartoffelgratin/Rezepte.html" title="Rezepte zu kartoffelgratin" class="rztag-medium">kartoffelgratin</a>
+																
+															
+																									<a href="/rs/s0/kartoffelsalat/Rezepte.html" title="Rezepte zu kartoffelsalat" class="rztag-x-small">kartoffelsalat</a>
+																
+															
+																									<a href="/rs/s0/kartoffelsuppe/Rezepte.html" title="Rezepte zu kartoffelsuppe" class="rztag-small">kartoffelsuppe</a>
+																
+															
+																									<a href="/rs/s0/kuchen/Rezepte.html" title="Rezepte zu kuchen" class="rztag-x-large">kuchen</a>
+																
+															
+																									<a href="/rs/s0/k%E4sekuchen/Rezepte.html" title="Rezepte zu käsekuchen" class="rztag-large">käsekuchen</a>
+																
+															
+																									<a href="/rs/s0/k%E4sesp%E4tzle/Rezepte.html" title="Rezepte zu käsespätzle" class="rztag-x-small">käsespätzle</a>
+																
+															
+																									<a href="/rs/s0/lasagne/Rezepte.html" title="Rezepte zu lasagne" class="rztag-medium">lasagne</a>
+																
+															
+																									<a href="/rs/s0/marmorkuchen/Rezepte.html" title="Rezepte zu marmorkuchen" class="rztag-large">marmorkuchen</a>
+																
+															
+																									<a href="/rs/s0/muffin/Rezepte.html" title="Rezepte zu muffin" class="rztag-medium">muffin</a>
+																
+															
+																									<a href="/rs/s0/muffins/Rezepte.html" title="Rezepte zu muffins" class="rztag-large">muffins</a>
+																
+															
+																									<a href="/rs/s0/nudelauflauf/Rezepte.html" title="Rezepte zu nudelauflauf" class="rztag-small">nudelauflauf</a>
+																
+															
+																									<a href="/rs/s0/nudelsalat/Rezepte.html" title="Rezepte zu nudelsalat" class="rztag-small">nudelsalat</a>
+																
+															
+																									<a href="/rs/s0/pancakes/Rezepte.html" title="Rezepte zu pancakes" class="rztag-small">pancakes</a>
+																
+															
+																									<a href="/rs/s0/pfannkuchen/Rezepte.html" title="Rezepte zu pfannkuchen" class="rztag-x-large">pfannkuchen</a>
+																
+															
+																									<a href="/rs/s0/philadelphia+torte/Rezepte.html" title="Rezepte zu philadelphia torte" class="rztag-small">philadelphia torte</a>
+																
+															
+																									<a href="/rs/s0/pizzabr%F6tchen/Rezepte.html" title="Rezepte zu pizzabrötchen" class="rztag-x-small">pizzabrötchen</a>
+																
+															
+																									<a href="/rs/s0/pizzateig/Rezepte.html" title="Rezepte zu pizzateig" class="rztag-x-large">pizzateig</a>
+																
+															
+																									<a href="/rs/s0/quiche/Rezepte.html" title="Rezepte zu quiche" class="rztag-x-small">quiche</a>
+																
+															
+																									<a href="/rs/s0/rinderbraten/Rezepte.html" title="Rezepte zu rinderbraten" class="rztag-x-small">rinderbraten</a>
+																
+															
+																									<a href="/rs/s0/r%FChrkuchen/Rezepte.html" title="Rezepte zu rührkuchen" class="rztag-x-small">rührkuchen</a>
+																
+															
+																									<a href="/rs/s0/sauerbraten/Rezepte.html" title="Rezepte zu sauerbraten" class="rztag-x-small">sauerbraten</a>
+																
+															
+																									<a href="/rs/s0/schnitzel+spinat+schafsk%E4se/Rezepte.html" title="Rezepte zu schnitzel spinat schafskäse" class="rztag-x-small">schnitzel spinat schafskäse</a>
+																
+															
+																									<a href="/rs/s0/schokokuchen/Rezepte.html" title="Rezepte zu schokokuchen" class="rztag-x-small">schokokuchen</a>
+																
+															
+																									<a href="/rs/s0/schokoladenkuchen/Rezepte.html" title="Rezepte zu schokoladenkuchen" class="rztag-small">schokoladenkuchen</a>
+																
+															
+																									<a href="/rs/s0/schweinebraten/Rezepte.html" title="Rezepte zu schweinebraten" class="rztag-small">schweinebraten</a>
+																
+															
+																									<a href="/rs/s0/schweinefilet/Rezepte.html" title="Rezepte zu schweinefilet" class="rztag-medium">schweinefilet</a>
+																
+															
+																									<a href="/rs/s0/spaghetti+carbonara/Rezepte.html" title="Rezepte zu spaghetti carbonara" class="rztag-x-small">spaghetti carbonara</a>
+																
+															
+																									<a href="/rs/s0/tiramisu/Rezepte.html" title="Rezepte zu tiramisu" class="rztag-medium">tiramisu</a>
+																
+															
+																									<a href="/rs/s0/waffeln/Rezepte.html" title="Rezepte zu waffeln" class="rztag-x-large">waffeln</a>
+																
+															
+																									<a href="/rs/s0/waffelrezept/Rezepte.html" title="Rezepte zu waffelrezept" class="rztag-small">waffelrezept</a>
+																
+															
+																									<a href="/rs/s0/waffelteig/Rezepte.html" title="Rezepte zu waffelteig" class="rztag-small">waffelteig</a>
+																
+															
+																									<a href="/rs/s0/zitronenkuchen/Rezepte.html" title="Rezepte zu zitronenkuchen" class="rztag-small">zitronenkuchen</a>
+																
+													</ul>
+						
+					</div><!-- /sidebar-box-padding -->
+					
+				</div><!-- /sidebar-box-gradient -->
+			</div><!-- /sidebar-box -->
+						
+			<!-- ~~~~~~~~~~~~~~~~~~~ -->
+			<!-- Sidebar: Tag-Cloud  -->
+			<!-- ~~~~~~~~~~~~~~~~~~~ -->
+			
+			<div class="sidebar-box">
+				<div class="sidebar-box-gradient">
+					
+					<div class="sidebar-box-headline">Beliebte Schlagwörter</div>
+					
+					<div class="sidebar-box-padding">
+						
+						<ul class="tagcloud tagcloud-gray">
+															
+																									<a href="/rs/s0t30/Auflauf-Rezepte.html" title="Suche nach Auflauf-Rezepten" class="rztag-x-small">Auflauf</a>
+																
+															
+																									<a href="/rs/s0t23/Backen-Rezepte.html" title="Suche nach Backen-Rezepten" class="rztag-large">Backen</a>
+																
+															
+																									<a href="/rs/s0t36/Beilage-Rezepte.html" title="Suche nach Beilage-Rezepten" class="rztag-x-small">Beilage</a>
+																
+															
+																									<a href="/rs/s0t69/Braten-Rezepte.html" title="Suche nach Braten-Rezepten" class="rztag-small">Braten</a>
+																
+															
+																									<a href="/rs/s0t152/Camping-Rezepte.html" title="Suche nach Camping-Rezepten" class="rztag-x-small">Camping</a>
+																
+															
+																									<a href="/rs/s0t90/Dessert-Rezepte.html" title="Suche nach Dessert-Rezepten" class="rztag-small">Dessert</a>
+																
+															
+																									<a href="/rs/s0t65/Deutschland-Rezepte.html" title="Suche nach Deutschland-Rezepten" class="rztag-x-small">Deutschland</a>
+																
+															
+																									<a href="/rs/s0t35/Dips-Rezepte.html" title="Suche nach Dips-Rezepten" class="rztag-x-small">Dips</a>
+																
+															
+																									<a href="/rs/s0t50/einfach-Rezepte.html" title="Suche nach einfach-Rezepten" class="rztag-large">einfach</a>
+																
+															
+																									<a href="/rs/s0t81/Eintopf-Rezepte.html" title="Suche nach Eintopf-Rezepten" class="rztag-x-small">Eintopf</a>
+																
+															
+																									<a href="/rs/s0t29/Europa-Rezepte.html" title="Suche nach Europa-Rezepten" class="rztag-small">Europa</a>
+																
+															
+																									<a href="/rs/s0t106/Festlich-Rezepte.html" title="Suche nach Festlich-Rezepten" class="rztag-x-small">Festlich</a>
+																
+															
+																									<a href="/rs/s0t56/fettarm-Rezepte.html" title="Suche nach fettarm-Rezepten" class="rztag-x-small">fettarm</a>
+																
+															
+																									<a href="/rs/s0t61/Fisch-Rezepte.html" title="Suche nach Fisch-Rezepten" class="rztag-x-small">Fisch</a>
+																
+															
+																									<a href="/rs/s0t109/Frucht-Rezepte.html" title="Suche nach Frucht-Rezepten" class="rztag-x-small">Frucht</a>
+																
+															
+																									<a href="/rs/s0t78/Fruehling-Rezepte.html" title="Suche nach Fr&uuml;hling-Rezepten" class="rztag-x-small">Fr&uuml;hling</a>
+																
+															
+																									<a href="/rs/s0t58/Gefluegel-Rezepte.html" title="Suche nach Gefl&uuml;gel-Rezepten" class="rztag-x-small">Gefl&uuml;gel</a>
+																
+															
+																									<a href="/rs/s0t144/gekocht-Rezepte.html" title="Suche nach gekocht-Rezepten" class="rztag-medium">gekocht</a>
+																
+															
+																									<a href="/rs/s0t18/Gemuese-Rezepte.html" title="Suche nach Gem&uuml;se-Rezepten" class="rztag-large">Gem&uuml;se</a>
+																
+															
+																									<a href="/rs/s0t11/Getraenk-Rezepte.html" title="Suche nach Getr&auml;nk-Rezepten" class="rztag-x-small">Getr&auml;nk</a>
+																
+															
+																									<a href="/rs/s0t21/Hauptspeise-Rezepte.html" title="Suche nach Hauptspeise-Rezepten" class="rztag-large">Hauptspeise</a>
+																
+															
+																									<a href="/rs/s0t99/Herbst-Rezepte.html" title="Suche nach Herbst-Rezepten" class="rztag-small">Herbst</a>
+																
+															
+																									<a href="/rs/s0t20/kalt-Rezepte.html" title="Suche nach kalt-Rezepten" class="rztag-x-small">kalt</a>
+																
+															
+																									<a href="/rs/s0t138/Kartoffeln-Rezepte.html" title="Suche nach Kartoffeln-Rezepten" class="rztag-x-small">Kartoffeln</a>
+																
+															
+																									<a href="/rs/s0t147/Kekse-Rezepte.html" title="Suche nach Kekse-Rezepten" class="rztag-x-small">Kekse</a>
+																
+															
+																									<a href="/rs/s0t91/Kinder-Rezepte.html" title="Suche nach Kinder-Rezepten" class="rztag-x-small">Kinder</a>
+																
+															
+																									<a href="/rs/s0t92/Kuchen-Rezepte.html" title="Suche nach Kuchen-Rezepten" class="rztag-small">Kuchen</a>
+																
+															
+																									<a href="/rs/s0t24/Nudeln-Rezepte.html" title="Suche nach Nudeln-Rezepten" class="rztag-small">Nudeln</a>
+																
+															
+																									<a href="/rs/s0t45/Party-Rezepte.html" title="Suche nach Party-Rezepten" class="rztag-small">Party</a>
+																
+															
+																									<a href="/rs/s0t31/Pasta-Rezepte.html" title="Suche nach Pasta-Rezepten" class="rztag-x-small">Pasta</a>
+																
+															
+																									<a href="/rs/s0t140/Pilze-Rezepte.html" title="Suche nach Pilze-Rezepten" class="rztag-x-small">Pilze</a>
+																
+															
+																									<a href="/rs/s0t48/raffiniert-oder-preiswert-Rezepte.html" title="Suche nach raffiniert oder preiswert-Rezepten" class="rztag-small">raffiniert oder preiswert</a>
+																
+															
+																									<a href="/rs/s0t110/Resteverwertung-Rezepte.html" title="Suche nach Resteverwertung-Rezepten" class="rztag-x-small">Resteverwertung</a>
+																
+															
+																									<a href="/rs/s0t22/Rind-Rezepte.html" title="Suche nach Rind-Rezepten" class="rztag-x-small">Rind</a>
+																
+															
+																									<a href="/rs/s0t15/Salat-Rezepte.html" title="Suche nach Salat-Rezepten" class="rztag-small">Salat</a>
+																
+															
+																									<a href="/rs/s0t34/Saucen-Rezepte.html" title="Suche nach Saucen-Rezepten" class="rztag-x-small">Saucen</a>
+																
+															
+																									<a href="/rs/s0t66/Schmoren-Rezepte.html" title="Suche nach Schmoren-Rezepten" class="rztag-x-small">Schmoren</a>
+																
+															
+																									<a href="/rs/s0t49/Schnell-Rezepte.html" title="Suche nach Schnell-Rezepten" class="rztag-large">Schnell</a>
+																
+															
+																									<a href="/rs/s0t59/Schwein-Rezepte.html" title="Suche nach Schwein-Rezepten" class="rztag-small">Schwein</a>
+																
+															
+																									<a href="/rs/s0t71/Snack-Rezepte.html" title="Suche nach Snack-Rezepten" class="rztag-small">Snack</a>
+																
+															
+																									<a href="/rs/s0t27/Sommer-Rezepte.html" title="Suche nach Sommer-Rezepten" class="rztag-small">Sommer</a>
+																
+															
+																									<a href="/rs/s0t211/Studentenkueche-Rezepte.html" title="Suche nach Studentenk&uuml;che-Rezepten" class="rztag-x-small">Studentenk&uuml;che</a>
+																
+															
+																									<a href="/rs/s0t89/Suessspeise-Rezepte.html" title="Suche nach S&uuml;&szlig;speise-Rezepten" class="rztag-x-small">S&uuml;&szlig;speise</a>
+																
+															
+																									<a href="/rs/s0t40/Suppe-Rezepte.html" title="Suche nach Suppe-Rezepten" class="rztag-x-small">Suppe</a>
+																
+															
+																									<a href="/rs/s0t93/Torte-Rezepte.html" title="Suche nach Torte-Rezepten" class="rztag-x-small">Torte</a>
+																
+															
+																									<a href="/rs/s0t32/Vegetarisch-Rezepte.html" title="Suche nach Vegetarisch-Rezepten" class="rztag-medium">Vegetarisch</a>
+																
+															
+																									<a href="/rs/s0t19/Vorspeise-Rezepte.html" title="Suche nach Vorspeise-Rezepten" class="rztag-small">Vorspeise</a>
+																
+															
+																									<a href="/rs/s0t42/warm-Rezepte.html" title="Suche nach warm-Rezepten" class="rztag-x-small">warm</a>
+																
+															
+																									<a href="/rs/s0t102/Weihnachten-Rezepte.html" title="Suche nach Weihnachten-Rezepten" class="rztag-x-small">Weihnachten</a>
+																
+															
+																									<a href="/rs/s0t64/Winter-Rezepte.html" title="Suche nach Winter-Rezepten" class="rztag-x-small">Winter</a>
+																
+													</ul>
+						
+					</div><!-- /sidebar-box-padding -->
+					
+				</div><!-- /sidebar-box-gradient -->
+			</div><!-- /sidebar-box -->
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!--  Sidebar: Markenrezepte  -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			
+			<div class="sidebar-box">
+				<div class="sidebar-box-gradient">
+					
+					<div class="sidebar-box-headline">Markenrezepte</div>
+					
+					<div class="sidebar-box-padding">
+							
+						<table class="brandlogo-table">
+							<tr>
+								<td class="partnerlogo-50"><a href="/user/rezepte/d18f5d65b95ff1bc209cdf60d1bc42c6/Galbani.html" name="{ct:'rezept-suche-userrezepte', ck:{'1':'hp_side_markenrezept','2':'d18f5d65b95ff1bc209cdf60d1bc42c6'}}"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/galbani/galbani-logo-ri.gif" width="90" height="34" alt="Galbani Rezepte"></a></td>
+                <td class="partnerlogo-50"><a href="/user/rezepte/a48f8b7b4985941a2e6869277e983874/Henglein.html" name="{ct:'rezept-suche-userrezepte', ck:{'1':'hp_side_markenrezept','2':'a48f8b7b4985941a2e6869277e983874'}}"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/henglein/henglein-ri.gif" width="85" height="37" alt="Henglein Rezepte"></a></td>
+							</tr>
+							<tr>
+							 <td class="partnerlogo-50"><a href="/user/rezepte/b6622c6ef59579aa2bc8e4df4df7ed9e/milram.html" name="{ct:'rezept-suche-userrezepte', ck:{'1':'hp_side_markenrezept','2':'b6622c6ef59579aa2bc8e4df4df7ed9e'}}"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/milram/milram-logo-ri.gif" width="85" height="41" alt="Milram Rezepte" vspace="10" hspace="0"></a></td>
+							 <td class="partnerlogo-50"><a href="/user/rezepte/e11bfbb7c1d9999de0bc09f22adcb987/Rama.html" name="{ct:'rezept-suche-userrezepte', ck:{'1':'hp_side_markenrezept','2':'e11bfbb7c1d9999de0bc09f22adcb987'}}"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/rama/rama-cremefine-ri.gif" width="47" height="40" alt="Rama Rezepte"></a></td>
+							</tr>
+							<tr>
+								<td class="partnerlogo-50"><a href="/user/rezepte/63645eb8e55027ec1377447ce3e23d36/Toppits.html" name="{ct:'rezept-suche-userrezepte', ck:{'1':'hp_side_markenrezept','2':'63645eb8e55027ec1377447ce3e23d36'}}"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/toppits/TOPPITS_Logo_ri.gif" width="79" height="40" alt="Rama Rezepte"></a></td>
+								<td class="partnerlogo-50"></td>
+							</tr>      
+						</table>
+						
+					</div><!-- /sidebar-box-padding -->
+					
+				</div><!-- /sidebar-box-gradient -->
+			</div><!-- /sidebar-box -->
+			
+		</div><!-- /sidebar -->
+		
+	</div><!-- /content-wrapper -->
+	
+	<!-- ~~~~~~~~~~~ -->
+	<!--  Suchhilfe  -->
+	<!-- ~~~~~~~~~~~ -->
+	
+	<div id="extended-search-help-container">
+		<div id="extended-search-help">
+			
+						<h2>Suchhilfe</h2>
+			
+			<table>
+				<tr>
+					<td>
+												
+										<p>
+											Zur Durchführung einer Rezept-Suche können <i>Schlagwörter / Tags</i>, <i>Kategorien</i> und die <i>Volltextsuche</i> miteinander kombiniert werden.
+											Bei den <i>Schlagwörtern / Tags</i> handelt es sich um Begriffe die den Rezepten fest zugeordnet sind und die in der rechten Spalte neben den Rezepten zur Auswahl stehen.
+											Eine <i>Rezept-Kategorie</i> muss zunächst über die Seite <a href="/rezepte/kategorien/">Kategorienbaum</a> ausgewählt werden.
+											Die <i>Kategorien</i> bilden eine hierarchische Struktur, in der die Rezepte organisiert sind.
+										</p>
+										<p>
+											<i>Volltextsuche:</i> Wenn es über die 'Erweiterte Suche' nicht anders angegeben wird, werden nur die Felder Rezeptname und Zutaten durchsucht.
+											Mehrere Suchbegriffe werden immer automatisch mit UND verknüpft:
+										</p>
+										<p>
+											<strong>reis honig</strong><br>
+											Findet alle Rezepte, die beide Begriffe entalten.
+										</p>
+										<p>
+											<strong>reis -honig</strong><br>
+											Findet alle Rezepte, die den Begriff 'reis', aber nicht 'honig' entalten.
+										</p>
+										<p>
+											<strong>apfel*</strong><br>
+											Findet Apfel, Apfelsaft, Apfelkuchen usw. (* am Wortanfang wird nicht unterstützt)
+										</p>
+										<p>
+											<strong>"mittlerer hitze kochen"</strong><br>
+											Findet die genaue Wortfolge.
+										</p>
+										<p>
+											<strong>reis -honig apfel* "meine suche"</strong><br>
+											Die Suchkommandos -, * und "" können beliebig kombiniert werden.
+										</p>					</td>
+				</tr>
+			</table>
+			
+		</div><!-- /extended-search-help -->
+	</div><!-- /extended-search-help-container -->
+	
+</div><!-- /page -->
+
+<!-- ~~~~~~~~~~~~~~~~ -->
+<!--  Google Textads  -->
+<!-- ~~~~~~~~~~~~~~~~ -->
+
+<span id="text-ads">
+	
+				<div style="padding: 10px;">
+					<script type="text/javascript"><!-- 
+					google_ad_client = "pub-5214522864208164"; 
+					/* DEFAULT-Footer */ 
+					google_ad_slot = "5675010904"; 
+					google_ad_width = 728; 
+					google_ad_height = 90; 
+					//--> 
+					</script> 
+					<script type="text/javascript" 
+					src="http://pagead2.googlesyndication.com/pagead/show_ads.js"> 
+					</script>
+				</div></span>
+
+<!-- ~~~~~~~~~~~~~~ -->
+<!--  Partnerlogos  -->
+<!-- ~~~~~~~~~~~~~~ -->
+
+<!-- ~~~~~~~~~~~~~~ -->
+<!--  Partnerlogos  -->
+<!-- ~~~~~~~~~~~~~~ -->
+<div id="partnerlogos-bottom" class="clearfix">
+	<p id="partnerlogos-bottom-headline">Magazine unserer Partner auf Chefkoch.de</p>
+	<div class="partnerlogo-33">
+		<a href="http://www.chefkoch.de/magazin/rs/14,0,0/partnerlogo/" name="{'ct':'mag_artikel','ck':{'3':'0','1':'partnerlogo','2':'14','4':'0'}}">
+			<img src="http://img.chefkoch-cdn.de/img/ck.de/partnerlogos/aeg.gif" title="AEG - perfekt in Form und Funktion" alt="AEG - perfekt in Form und Funktion" border="0">
+		</a>
+	</div>
+	<div class="partnerlogo-33">
+		<a href="http://www.chefkoch.de/magazin/rs/48,0,0/partnerlogo/" name="{'ct':'mag_artikel','ck':{'3':'0','1':'partnerlogo','2':'48','4':'0'}}">
+			<img src="http://img.chefkoch-cdn.de/img/ck.de/partnerlogos/weltgenusserbe.gif" title="WeltGenussErbe" alt="WeltGenussErbe" border="0">
+		</a>
+	</div>
+	<div class="partnerlogo-33">
+		<a href="http://www.chefkoch.de/magazin/rs/60,0,0/partnerlogo/" name="{'ct':'mag_artikel','ck':{'3':'0','1':'partnerlogo','2':'60','4':'0'}}">
+			<img src="http://img.chefkoch-cdn.de/img/ck.de/partnerlogos/wmf.gif" title="WMF" alt="WMF" border="0">
+		</a>
+	</div>
+</div>
+
+<script type="text/javascript">
+	if(window.wtQueueParam==undefined) {
+		window.wtQueueParam={};
+	}
+	window.wtQueueParam[2] = 'partnerlogo14;partnerlogo48;partnerlogo60';
+</script>
+<!-- ~~~~~~~~~~~~ -->
+<!--  JavaScript  -->
+<!-- ~~~~~~~~~~~~ -->
+
+<script src="http://js.chefkoch-cdn.de/js/default/page-recipes.js?v=1"></script>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!--  Footer (Partnerseiten, Live-Suchen, etc.)  -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+				<div id="footer" class="footer clearfix">
+					
+					<div class="footer-links">
+						<strong>Chefkoch.de - Europas größte Kochseite, &copy; 1998-2013 pixelhouse GmbH</strong><br />
+						<a href="/uebersicht.php">Übersicht</a> | <a href="/impressum.php" rel="nofollow">Impressum</a> | <a href="/magazin/artikel/1426,0/Chefkoch/Jobs.html">Jobs</a> | <a href="/werbung.php" rel="nofollow">Werben auf chefkoch.de (Mediadaten)</a><br />
+						<a href="/privacy.php" rel="nofollow">Datenschutz</a> | <a href="http://ems.guj.de/service/oba" rel="nofollow" target="_blank">Nutzungsbasierte Online Werbung</a> | <a href="http://mobile.chefkoch.de/" rel="follow">mobile Version der Seite</a>
+					</div>
+					
+					<div class="footer-search">
+													
+							Live Rezeptsuchen:
+															
+																<a href="/rs/s0/1+tasse+reis+und+2+tassen+wasser/Rezepte.html">1 tasse reis und 2 tassen wasser rezepte</a>, 
+																<a href="/rs/s0/1a+br%FCh/Rezepte.html">1a brüh rezepte</a>, 
+																<a href="/rs/s0/2huhn+2cashew/Rezepte.html">2huhn 2cashew rezepte</a>, 
+																<a href="/rs/s0/5+minut+brot/Rezepte.html">5 minut brot rezepte</a>, 
+																<a href="/rs/s0/80c+party/Rezepte.html">80c party rezepte</a>, 
+																<a href="/rs/s0/amerikanische+gerichte/Rezepte.html">amerikanische gerichte rezepte</a>, 
+																<a href="/rs/s0/eier+reis+rosinen+mandeln/Rezepte.html">eier reis rosinen mandeln rezepte</a>, 
+																<a href="/rs/s0/r%F6sti+rohe+kartoffeln/Rezepte.html">rösti rohe kartoffeln rezepte</a>, 
+																<a href="/rs/s0/schnelles+abendessen/Rezepte.html">schnelles abendessen rezepte</a>, 
+																<a href="/rs/s0/schokocreme+f%FCr+torte/Rezepte.html">schokocreme für torte rezepte</a> 
+														
+											</div>
+					
+					<img src="/counter4.php?a=1&user=&page=/rezepte.php&img_time=1363607808&cache=cached" alt="">
+					<img src="/counter5.php?a=2&img_time=1363607808&ref=" alt="">
+					
+										
+				</div><!-- /footer -->
+				
+			</div><!-- /page-wrapper -->
+			
+			<!-- Navigation -->
+			<script src="http://js.chefkoch-cdn.de/js/default/navigation-functions.js?v=1"></script>
+			
+			<!-- clicktale -->
+			<script src="/ajax/clicktale-config.php" type="text/javascript"></script>
+			<script type="text/javascript">
+				if ( (typeof(clicktale_url_active) != 'undefined') && (clicktale_url_active == window.location.href) ) {
+					
+					if ( typeof(clicktale_ratio) == 'undefined' ) { var clicktale_ratio = 1;}
+					
+					document.write('<div id="ClickTaleDiv" style="display: none;"></div>');
+					document.write(unescape("%3Cscript%20src='http://img.chefkoch-cdn.de/js/clicktale-WRc5.js'%20type='text/javascript'%3E%3C/script%3E"));
+				}
+			</script>
+			<script type="text/javascript">
+				if( typeof ClickTale == 'function' ) { ClickTale(855, clicktale_ratio, "www08"); }
+			</script>
+			<!-- /clicktale -->
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!--  Temporaere Container fuer Werbung  -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			
+			<span id="banner-top-tmp">
+				
+			<script type="text/javascript">
+				/* AdProbe Profiling */
+				document.write('<scr'+'ipt type="text/javascript" src="http://js.revsci.net/gateway/gw.js?csid=L11282&auto=t"></scr'+'ipt>');
+			</script>
+			<script type="text/javascript">
+			var n_pbt = '';
+			var a_pbt = '', adaCus = "12472,12473,12474,12475,12476,12477,12478,12479,12967,12965,12966,12963,12964,12548,12549,12550"; var adaOrd = new Date().getTime();
+			try {
+				document.write('<scr' + 'ipt type="text/javascript" src="http://req.connect.wunderloop.net/AP/1614/6500/12472/js?cus=' + adaCus + '&ord=' + adaOrd + '"></sc' + 'ript>');
+			} catch(err) { }
+			</script>
+			<script type="text/javascript">
+				try{ 
+					if(wl12472camp.length > 0) a_pbt += ';wl12472camp=' + wl12472camp;
+					if(wl12473camp.length > 0) a_pbt += ';wl12473camp=' + wl12473camp;
+					if(wl12474camp.length > 0) a_pbt += ';wl12474camp=' + wl12474camp;
+					if(wl12475camp.length > 0) a_pbt += ';wl12475camp=' + wl12475camp;
+					if(wl12476camp.length > 0) a_pbt += ';wl12476camp=' + wl12476camp;
+					if(wl12477camp.length > 0) a_pbt += ';wl12477camp=' + wl12477camp;
+					if(wl12478camp.length > 0) a_pbt += ';wl12478camp=' + wl12478camp;
+					if(wl12479camp.length > 0) a_pbt += ';wl12479camp=' + wl12479camp;
+					if(wl12480camp.length > 0) a_pbt += ';wl12480camp=' + wl12480camp;
+					if(wl12548camp.length > 0) a_pbt += ';wl12548camp=' + wl12548camp;
+					if(wl12549camp.length > 0) a_pbt += ';wl12549camp=' + wl12549camp;
+					if(wl12550camp.length > 0) a_pbt += ';wl12550camp=' + wl12550camp;
+					if(a_pbt.length > 0) a_pbt += ';';
+				} catch(err) { }
+				var rsi_segs = [];
+				var segs_beg=document.cookie.indexOf('rsi_segs=');
+				if(segs_beg>=0){
+					segs_beg=document.cookie.indexOf('=',segs_beg)+1;
+					if(segs_beg>0){
+						var segs_end=document.cookie.indexOf(';',segs_beg);
+						if(segs_end==-1) segs_end=document.cookie.length;
+						rsi_segs=document.cookie.substring(segs_beg,segs_end).split('|');
+					}
+				}
+				var segLen=60;
+				var segQS="";
+				if(rsi_segs.length<segLen){ segLen=rsi_segs.length }
+				for(var i=0;i<segLen;i++){ segQS+=(";"+"bt"+"="+rsi_segs[i].replace(/L11278_/, 'A').replace(/L11282_/, 'E')); }
+				a_pbt += segQS;
+				n_pbt += a_pbt;
+			</script>
+			<div id="tmp_topbanner" style="display:none;">
+				<script type="text/javascript">
+					if ( document.getElementById("topbanner") ) {
+					
+						if(typeof adsite == "undefined") { adsite='chefkochde'; }
+						if(typeof adzone == "undefined") { adzone='rezepte'; }
+						adsz='728x90';
+						addcopt='';
+						adtile=1;
+						if(typeof adkwds == "undefined") { adkwds=''; }
+						if(typeof ord == "undefined") {ord = parseInt(Math.random()*10000000000000000);}
+						document.write('<sc'+'ript language="JavaScript" src="http://ad.de.doubleclick.net/adj/'+adsite+'/'+adzone+';sz='+adsz+';'+addcopt+'tile='+adtile+''+adkwds+''+n_pbt+';ord='+ord+'?" type="text/javascript"><\/sc'+'ript>');
+					}
+				</script>
+				<script type="text/javascript">
+					var LeaderBoard;
+					var wallpaper;
+					if ( wallpaper == 1 ) {
+						var wallpaperDiv = document.getElementById("banner-wallpaper");
+						ad_banner_show( "tmp_topbanner", "wallpaperbanner" );
+					} else if ( LeaderBoard == 1 ) {
+						var topBannerDiv = document.getElementById("topbanner");
+						topBannerDiv.style.paddingBottom = "10px";
+						ad_banner_show( "tmp_topbanner", "topbanner" );
+					}
+				</script>
+			</div>			</span>
+			<span id="banner-sky">
+				
+			<div id="SkyScraper">
+				<div>
+					<script type="text/javascript">
+						adsz='160x600';
+						addcopt='dcopt=ist;';
+						adtile=2;
+						if(typeof ad_rand_no == "undefined") {ad_rand_no = parseInt(Math.random()*10000000000000000);}
+						document.write('<sc'+'ript language="JavaScript" src="http://ad.de.doubleclick.net/adj/'+adsite+'/'+adzone+';sz='+adsz+';'+addcopt+'tile='+adtile+''+adkwds+''+n_pbt+';ord='+ord+'?" type="text/javascript"><\/sc'+'ript>');
+					</script>
+				</div>
+			</div>			</span>
+			<span id="banner-hpa-mr-temp">
+				
+			<div id="tmp_hpamrbanner" style="display:none;">
+				<script type="text/javascript">
+						if ( document.getElementById("hpamrbanner") ) {
+							adsz='300x600';
+							addcopt='';
+							adtile=3;
+							if(typeof ad_rand_no == "undefined") {ad_rand_no = parseInt(Math.random()*10000000000000000);}
+							document.write('<sc'+'ript language="JavaScript" src="http://ad.de.doubleclick.net/adj/'+adsite+'/'+adzone+';sz='+adsz+';'+addcopt+'tile='+adtile+''+adkwds+''+n_pbt+';ord='+ord+'?" type="text/javascript"><\/sc'+'ript>');
+						}
+						var halfpage;
+					</script>
+					<script type="text/javascript">
+						if ( document.getElementById("hpamrbanner") && ( (typeof halfpage == "undefined") || (halfpage == 0) ) ) {
+							adsz='300x250';
+							adtile=4;
+							if(typeof ad_rand_no == "undefined") {ad_rand_no = parseInt(Math.random()*10000000000000000);}
+							document.write('<sc'+'ript language="JavaScript" src="http://ad.de.doubleclick.net/adj/'+adsite+'/'+adzone+';sz='+adsz+';'+addcopt+'tile='+adtile+''+adkwds+''+n_pbt+';ord='+ord+'?" type="text/javascript"><\/sc'+'ript>');
+						}
+						var contentad;
+					</script>
+					<script type="text/javascript">
+						if ( (halfpage == 1) || (contentad == 1) ) {
+							var hpamrbannerDiv = document.getElementById("hpamrbanner");
+							hpamrbannerDiv.style.marginBottom = "20px";
+							ad_banner_show( "tmp_hpamrbanner", "hpamrbanner" );
+						}
+				</script>
+			</div>			</span>
+			<span id="content-banner-tmp">
+				<div id="tmp_contentbanner" style="display:none;"></div>			</span>
+			<span id="banner-supreme-tmp">
+				<div id="tmp_supremebanner" style="display:none;">
+					<script type="text/javascript">
+							if ( document.getElementById("supremebanner") ) {
+								adsz='300x1000';
+								addcopt='';
+								adtile=5;
+								if(typeof ad_rand_no == "undefined") {ad_rand_no = parseInt(Math.random()*10000000000000000);}
+								document.write('<sc'+'ript language="JavaScript" src="http://ad.de.doubleclick.net/adj/'+adsite+'/'+adzone+';sz='+adsz+';'+addcopt+'tile='+adtile+''+adkwds+''+n_pbt+';ord='+ord+'?" type="text/javascript"><\/sc'+'ript>');
+							}
+							var supremead;
+						</script>
+						<script type="text/javascript">
+							if ( supremead == 1 ) {
+								var supremebannerDiv = document.getElementById("supremebanner");
+								supremebannerDiv.style.marginBottom = "20px";
+								ad_banner_show( "tmp_supremebanner", "supremebanner" );
+							}
+					</script>
+			</div>			</span>
+			
+		</div><!-- /wrapper -->
+		
+		<!-- ~~~~~~~~~~~~~ -->
+		<!--  Statistiken  -->
+		<!-- ~~~~~~~~~~~~~ -->
+		
+				
+		<!-- SZM VERSION="1.5" -->
+		<!-- Dieses Online-Angebot unterliegt nicht der IVW-Kontrolle! -->
+		<script type="text/javascript">
+		<!--
+		var IVW="http://chefkoch.ivwbox.de/cgi-bin/ivw/CP/1E06HCAA;";
+		document.write("<img src=\""+IVW+"?r="+escape(document.referrer)+"&d="+(Math.random()*100000)+"\" width=\"1\" height=\"1\" alt=\"szmtag\" />");
+		//-->
+		</script>
+		<noscript>
+		<img src="http://chefkoch.ivwbox.de/cgi-bin/ivw/CP/1E06HCAA;"
+		width="1" height="1" alt="szmtag" />
+		
+		</noscript>
+		<!-- /SZM -->
+		<!-- SZMFRABO VERSION="1.1" -->
+		<script type="text/javascript"> 
+		var szmvars="chefkoch//CP//1E06HCAA";
+		</script>
+		<script src="http://chefkoch.ivwbox.de/2004/01/survey.js" type="text/javascript">
+		</script>
+		<!-- /SZMFRABO -->
+		
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-262191-1");
+		pageTracker._initData();
+		_gat._anonymizeIp();
+		pageTracker._trackPageview();
+		</script>
+		
+				<script type="text/javascript">
+			window.wtparam = {"wtconfig":{"linkTrack":"standard","linkTrackAttribute":"name","heatmap":"0","contentId":"de.web.rezept.overview"},"contentGroup":{"1":"de","2":"web","3":"rezept"}};			document.write(unescape("%3Cscript%20src='http://js.chefkoch-cdn.de/js/webtrekk_v3_322.js'%20type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<noscript><div><img src="http://chefkoch01.webtrekk.net/886765640341113/wt.pl?p=322,de.web.rezept.overview&cg1=de&cg2=web&cg3=rezept" height="1" width="1" alt="" /></div></noscript>
+		
+	</body>
+</html>
+<!-- runtime: 0.006373 sec on cook4.chefkoch.de -->

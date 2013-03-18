@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="rezepte">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="rezept">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="photos" minOccurs="0">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="photo" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:attribute name="id" type="xsd:int" />
+                        <xsd:attribute name="width" type="xsd:int" />
+                        <xsd:attribute name="height" type="xsd:int" />
+                        <xsd:attribute name="src" type="xsd:string" />
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="zutaten">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="zutat">
+                      <xsd:complexType>
+                        <xsd:attribute name="menge" type="xsd:int" />
+                        <xsd:attribute name="einheit" type="xsd:string" />
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="schwierigkeit">
+                <xsd:complexType>
+                  <xsd:attribute name="value" type="xsd:string" />
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="arbeitszeit">
+                <xsd:complexType>
+                  <xsd:attribute name="value" type="xsd:int" />
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="brennwert">
+                <xsd:complexType>
+                  <xsd:attribute name="value" type="xsd:int" />
+                  <xsd:attribute name="einheit" type="xsd:string" />
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="zubereitung" type="xsd:string" />
+              <xsd:element name="socialnetworks">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="network">
+                      <xsd:complexType>
+                        <xsd:attribute name="name" type="xsd:string" />
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="id" type="xsd:int" />
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

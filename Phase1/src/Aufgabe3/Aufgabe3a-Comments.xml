@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<comments xmlns="http://www.chefkoch.de/comments">
+    <rezept rezeptid="345">
+        <comment id="1">
+            <username>Hans</username>
+            <userid>534532</userid>
+            <userpic>http://...</userpic>
+            <userexpirience value="5" />
+            <commentdate>01.01.1900 00:00</commentdate>
+            <commentwertung value="-8"/>
+            <text>Habe Deinen Kuchen gestern gebacken</text>
+        </comment>
+        <comment id="2">
+            <username>Kuno</username>
+            <userid>5435436</userid>
+            <userpic>http://...</userpic>
+            <userexpirience value="3" />
+            <commentdate>01.01.1900 00:00</commentdate>
+            <commentwertung value="5" />
+            <text>Super Duper</text>
+        </comment>
+        <!-- usw. -->
+    </rezept>
+</comments>

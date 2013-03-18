@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <anmeldung xmlns="www.volkers-is-the-best.de/anmeldung">
-    <person>
-        <firstname>Hans</firstname>>
-        <lastname>Dampf</lastname>
-        <birthday format="dd.mm.yyyy">01.01.1900</birthday>
-        <email format="String@domain.tld">Hans@Dampf.de</email>
-        <experience value="3" />
-        <equipment bool="true" />
-        <comment>Warum bin ich so fröhlich, so fröhlich, so fröhlich...</comment>
-    </person>
-    <person>
-        <firstname>Kuno</firstname>>
-        <lastname>Kanupcke</lastname>
-        <birthday format="dd.mm.yyyy">01.01.1900</birthday>
-        <email format="String@domain.tld">Kuno@Kanupke.de</email>
-        <experience value="1" />
-        <equipment bool="false" />
-        <comment>Noch fröhlicher</comment>
-    </person>
+    <persons>
+        <person>
+            <grp id="0" />
+            <firstname>Hans</firstname>>
+            <lastname>Dampf</lastname>
+            <birthday format="dd.mm.yyyy">01.01.1900</birthday>
+            <email>Hans@Dampf.de</email>
+            <experience value="3" />
+            <equipment bool="true" />
+        </person>
+        <person>
+            <grp id="1" />
+            <firstname>Kuno</firstname>>
+            <lastname>Kanupcke</lastname>
+            <birthday format="dd.mm.yyyy">01.01.1900</birthday>
+            <email>Kuno@Kanupke.de</email>
+            <experience value="1" />
+            <equipment bool="false" />
+        </person>
+    </persons>
+    <comment>Warum bin ich so fröhlich, so fröhlich, so fröhlich...</comment>
 </anmeldung>
