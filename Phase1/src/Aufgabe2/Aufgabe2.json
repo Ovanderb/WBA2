@@ -1,13 +1,23 @@
 {
     "person":[
         {
+            "grp":0,
             "firstname":"Hans",
             "lastname":"Dampf",
             "email":"Hans@Dampf.de",
             "birthday":"01.01.1900",
             "experience":3,
-            "equipment":true,
-            "comment":"Warum bin ich so fröhlich, so fröhlich, so fröhlich..."        
+            "equipment":true,     
+        },
+        {
+            "grp":1,
+            "firstname":"Kuno",
+            "lastname":"Kanupke",
+            "email":"Kuno@Kanupke.de",
+            "birthday":"01.01.1900",
+            "experience":1,
+            "equipment":false,     
         }
-    ]
+    ],
+    "comment":"Warum bin ich so fröhlich, so fröhlich, so fröhlich..."
 }
