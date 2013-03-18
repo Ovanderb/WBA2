@@ -1,0 +1,31 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <p>Wohlgeformt bedeutet, dass...</p>
+        <p>Validität bedeutet, dass...</p>
+        <p>Namespaces bedeutet, dass...</p>
+        Jede XML Datei benötigt als erstes eine XML Deklaration <code>&lt;?xml version="1.0" ?&gt;</code>. Hiermit wird festgelegt, um welche XML Version es sich bei dem verwendeten Dokument handelt. Weitere Parameter, z.B. das Encoding Encoding="UTF-8", sind optional.
+
+Danach kann optional eine DTD ( Document Type Definition ) in die Datei eingebunden werden. Diese kann entweder als eine externe Datei eingebunden oder direkt in der Datei definiert werden. Die Empfehlung ist, eine DTD immer einzubinden, denn ohne DTD können XML Dateien zwar wohlgeformt sein, aber sie können nicht gegen eine DTD validiert werden.
+
+Nun muss ein Root-Knoten respektive ein Root-Tag erstellt werden, in das alle anderen Elemente eingehangen werden können. In unserem vollständigen Beispiel wäre dieses das <note> Element. Man kann einen Vergleich zu dem von HTML bekannten <html></html> Tag ziehen.
+
+Nun können weitere Elemente in das Root-Tag eingebunden und beliebig, jedoch unter folgenden Regeln verschachtelt werden:
+
+    Elemente müssen eine geschlossene Hierarchie haben. <p><b></p></b> ist nicht erlaubt.
+    Elemente müssen immer geschlossen werden. <p></p>
+    Elemente sind Case sensitive. <p></P> führt zu einem Fehler.
+    Leere Elemente müssen geschlossen werden. <br />
+    Attributwerte müssen in Anführungszeichen stehen. <p c=1></p> = Falsch, <p c="1"></p> = Richtig
+    Es gibt keine boolschen "Schalter". <option value="gm" checked>foo</option> ist nicht möglich. Wenn dannchecked="checked".
+
+    </body>
+</html>
