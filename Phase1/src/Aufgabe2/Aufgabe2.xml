@@ -5,6 +5,14 @@ and open the template in the editor.
 -->
 
 
-<root>
-    
-</root>
+<anmeldung xmlns="www.volkers-is-the-best.de/anmeldung">
+    <person>
+        <firstname>Hans</firstname>>
+        <lastname>Dampf</lastname>
+        <birthday format="dd.mm.yyyy">01.01.1900</birthday>
+        <email format="String@domain.tld">Hans@Dampf.de</email>
+        <experience value="3" />
+        <equipment bool="true" />
+        <comment>Warum bin ich so fröhlich, so fröhlich, so fröhlich...</comment>
+    </person>
+</anmeldung>

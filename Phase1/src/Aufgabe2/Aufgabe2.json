@@ -1,0 +1,13 @@
+{
+    "person":[
+        {
+            "firstname":"Hans",
+            "lastname":"Dampf",
+            "email":"Hans@Dampf.de",
+            "birthday":"01.01.1900",
+            "experience":3,
+            "equipment":true,
+            "comment":"Warum bin ich so fröhlich, so fröhlich, so fröhlich..."        
+        }
+    ]
+}
