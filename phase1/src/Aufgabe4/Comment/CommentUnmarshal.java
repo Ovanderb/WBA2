@@ -17,7 +17,7 @@ public class CommentUnmarshal {
         JAXBContext context = JAXBContext.newInstance(Comments.class);
         Unmarshaller m = context.createUnmarshaller();
 
-        XMComments = (Comments) m.unmarshal(new File("xml/comment.xml"));
+        XMComments = (Comments) m.unmarshal(new File("src/Aufgabe4/xml/comment.xml"));
     }
 
     public Comments getComments() {

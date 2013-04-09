@@ -14,7 +14,7 @@ public class RezeptUnmarshal {
     public Rezepte unmarshal() throws JAXBException {
         JAXBContext context = JAXBContext.newInstance(Rezepte.class);
         Unmarshaller m = context.createUnmarshaller();
-        Rezepte XMRezepte = (Rezepte) m.unmarshal(new File("xml/rezept.xml"));
+        Rezepte XMRezepte = (Rezepte) m.unmarshal(new File("src/Aufgabe4/xml/rezept.xml"));
 
         return XMRezepte;
     }

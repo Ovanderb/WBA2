@@ -21,7 +21,7 @@ public class CommentMarshal {
         JAXBContext context = JAXBContext.newInstance(Comments.class);
         Marshaller m = context.createMarshaller();
         m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-        f = new FileOutputStream("xml/comment.xml");
+        f = new FileOutputStream("src/Aufgabe4/xml/comment.xml");
         m.marshal(s, f);
     }
 }
