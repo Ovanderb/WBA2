@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rezepte
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='../Aufgabe3c.xsd'>
+    <rezept id="1">
+        <name>Kuchen</name>
+        <photos>
+            <photo>
+                <Id>30</Id>
+                <Width>50</Width>
+                <Height>50</Height>
+                <Source>/pic/rezept/30.jpg</Source>
+            </photo>
+        </photos>
+        <zutaten>
+            <zutat>
+                <Menge>20</Menge>
+                <Einheit>g</Einheit>
+                <Name>Butter</Name>
+            </zutat>
+            <zutat>
+                <Menge>2</Menge>
+                <Einheit>Stk</Einheit>
+                <Name>Eier</Name>
+            </zutat>
+        </zutaten>
+        <schwierigkeit value="schwer"></schwierigkeit>
+        <arbeitszeit value="300"></arbeitszeit>
+        <brennwert value="3000" einheit="kcal"></brennwert>
+        <zubereitung>Alles in de Pott. Rühre. Fädisch.</zubereitung>
+        <socialnetworks>
+            <network name="facebook">6349374</network>
+        </socialnetworks>
+    </rezept>
+    <rezept id="2">
+        <name>Brot</name>
+        <photos>
+            <photo>
+                <Id>31</Id>
+                <Width>50</Width>
+                <Height>50</Height>
+                <Source>/pic/rezept/31.jpg</Source>
+            </photo>
+        </photos>
+        <zutaten>
+            <zutat>
+                <Menge>5</Menge>
+                <Einheit>Stk</Einheit>
+                <Name>Eier</Name>
+            </zutat>
+            <zutat>
+                <Menge>500</Menge>
+                <Einheit>g</Einheit>
+                <Name>Mehl</Name>
+            </zutat>
+        </zutaten>
+        <schwierigkeit value="normal"></schwierigkeit>
+        <arbeitszeit value="60"></arbeitszeit>
+        <brennwert value="2500" einheit="kcal"></brennwert>
+        <zubereitung>Ab in de Pott. Deckel druff. Schmoren. Fädisch</zubereitung>
+        <socialnetworks>
+            <network name="twitter">987594375</network>
+        </socialnetworks>
+    </rezept>
+</rezepte>

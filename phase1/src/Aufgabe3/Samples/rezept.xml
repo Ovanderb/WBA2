@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rezepte
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='../Aufgabe3c.xsd'>
+    <rezept id="1">
+        <photos>
+            <photo id="30" width="50" height="50" src="/pic/rezept/30.jpg">alternate</photo>
+        </photos>
+        <zutaten>
+            <zutat menge="20" einheit="g">Butter</zutat>
+            <zutat menge="2" einheit="Stk">Eier</zutat>
+        </zutaten>
+        <schwierigkeit value="schwer"></schwierigkeit>
+        <arbeitszeit value="300"></arbeitszeit>
+        <brennwert value="3000" einheit="kcal"></brennwert>
+        <zubereitung>Alles in de Pott. Rühre. Fädisch.</zubereitung>
+        <socialnetworks>
+            <network name="facebook">6349374</network>
+        </socialnetworks>
+    </rezept>
+    <rezept id="2">
+        <photos>
+            <photo id="31" width="50" height="50" src="/pic/rezept/31.jpg"></photo>
+        </photos>
+        <zutaten>
+            <zutat menge="5" einheit="Stk">Eier</zutat>
+            <zutat menge="500" einheit="g">Mehl</zutat>
+        </zutaten>
+        <schwierigkeit value="normal"></schwierigkeit>
+        <arbeitszeit value="60"></arbeitszeit>
+        <brennwert value="2500" einheit="kcal"></brennwert>
+        <zubereitung>Ab in de Pott. Deckel druff. Schmoren. Fädisch</zubereitung>
+        <socialnetworks>
+            <network name="twitter">987594375</network>
+        </socialnetworks>
+    </rezept>
+</rezepte>

@@ -6,7 +6,7 @@
     </head>
     <body>
         <h1>Aufgabe 3b</h1>
-        <p>Jedes Dokument muss haben:</p>
+        <p>Jedes Dokument <u>muss</u> haben:</p>
         <ul>
             <li>Zutaten mit:
                 <ul>    
@@ -15,18 +15,53 @@
                     <li>Name</li>
                 </ul>
             </li>
-            <li>Brennwert</li>
             <li>Dauer</li>
             <li>Schwierigkeit</li>
             <li>Zubereitungstext</li>
+            <li>Brennwert</li>
         </ul>
-        <p>Ein Dokument KANN haben:</p>
+        <p>Ein Dokument <u>kann</u> haben:</p>
         <ul>
-            <li>mehrere Fotos</li>
+            <li>ein oder mehrere Fotos</li>
             <li>Links innerhalb der Zutaten</li>
             <li>Social Network Tags</li>
             <li>Ein oder mehrere Kommentare</li>
         </ul>
-        <p>Bei unterschiedlichen Rezepten können ( und werden meistens auch )die oben genannten Felder und Attribute unterschiedliche Werte enthalten.</p>
+        <p>Die Kommentare enthalten:</p>
+        <ul>
+            <li>Nutzername</li>
+            <li>Datum</li>
+            <li>Nutzerbild</li>
+            <li>Nutzertag</li>
+            <li>Bewertung</li>
+            <li>Kommentar</li>
+        </ul>
+        <p>Beschreibung:</p>
+        Da ich persönlich kein Mitglied von Chefkoch.de bin, kann ich leider auch keine definitive Aussage über Pflichtfelder treffen.
+        Deshalb habe ich diese nach meiner persönlichen Entscheidung unter "muss" aufgeführt. Für ein Rezept sind zwingend erforderlich
+        die Zutaten und eine Beschreibung, wie diese zubereitet werden. Dieses sollte keiner nähreren Begründung bedürfen. Die Dauer ist
+        ein Wert, den nur der Ersteller dieses Rezepts kennt, der aber gerade für die Auswahl eines Rezepts von bedeutung sein kann.
+        Die Schwierigkeit obliegt ebenfalls dem subjektiven Empfinden des Erstellers und dient des weiteren als Auswahkriterium.
+        Der Brennwert kann ein Streitpunkt sein, denn einem normalsterblichen Koch kann eigentlich nicht zugemutet werden, den Brennwert
+        seines Rezepts zu ermitteln. Ich schwanke hierbei persönlich zwischen <u>kann</u> und <u>muss</u> Lösung.
+        <br><br>
+        Unter den "kann" Daten befinden sich an erster Stelle die Rezept Fotos. Diese müssen nicht zwingend für ein Rezept
+        vorhanden sein um es kochen zu können. Ebenfalls müssen nicht zwingend Links auf die Zutatenbeschreibungen vorhanden sein.
+        Die SNG Tags habe ich hier ebenfalls mit aufgeführt, da bei einem "Teilen" oder "Liken" eine eindeutige ID für dieses Rezept
+        mit übergeben wird. Diese wird jedoch nicht durch den Nutzer angelegt, sondern meistens durch eine Routine. Somit könnte
+        dieser Punkt auch unter den "muss" Daten stehen. Da die ID allerdings erst nachträglich auf dem Server hinzugefügt wird,
+        kann bei der Übertragung vom Client dieses Feld auch leer sein bzw. es wird leer sein. Das ein Rezept nach dem Erstellen
+        noch keinen Kommentar aufweist sollte sich ebenfalls ohne nähere Begründung erschließen lassen.<br>
+        <br>
+        Die Anzahl der Personen habe ich bewusst raus gelassen, da diese bei Chefkoch.de durch ein JavaScript aufgerechnet werden. 
+        Dies war jedoch auch ein strittiger Punkt, ob die Anzahl zuerst zum Server übertragen wird und dann dort umgerechnet wird oder
+        ob das Rezept Clientseitig durch ein JavaScript umgerechnet wird.<br>
+        <br>
+        Ich habe bei meiner Struktur absichtlich die Kommentare von den eigentlichen Rezepten getrennt. Wenn man von verteilten
+        Systemen ausgeht, sollen die Daten den unterschiedlichsten Plattformen mit den unterschiedlichsten Diensten / Anwendungen zur
+        Verfügung stehen. Hierbei stellt sich die Frage, wozu man bei einem Rezept zwingend Kommentare braucht respektive ob sich
+        die Semantik der Daten durch einen Kommentar ändert. Ebenfalls gilt zu prüfen, in wiefern Kommentare bei einem Dienst / einer App
+        angezeigt werden müssen. Ein Beispiel: Eine Website, die auf die Rezeptdaten von Chefkoch.de zurückgreift
+        um die Zutaten einer Einkaufsliste hinzuzufügen, benötigt keine Kommentare.
     </body>
 </html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h3>Warum werden Daten in Formaten wie JSON oder XML gespeichert?</h3>
+        Durch das speichern der Daten in diesen Formaten können die Daten semantisch geordnet, strukturiert und baumartig sortiert werden.<br>
+        Dieses wäre mit Daten in loser Form oder als "normale" Textdateien nicht möglich.<br>
+        <h3>Stellen Sie die Formate XML und JSON gegenüber.</h3>
+        <h5>XML</h5>
+        XML bietet eine menschenlesbare Struktur für Daten. Diese Struktur kann beliebig, jedoch nach den gegebenen Regeln für
+        XML Dokumente geschachtelt werden. Weiterhin können Metainformationen zu Daten oder Typisierung von Daten in Form von Attributen vergeben werden.
+        Ebenfalls ist die Validierung mittels XML Schemata oder DTD möglich. Der Nachteil von XML ist der teilweise erhebliche Overload an strukturbedingten Auszeichnungen.
+        <h5>JSON</h5>
+        JSON bietet eine baumartige Strukturierung von Daten und kennt nur einfache Datentypen. Daten können hierbei ebenfalls
+        semantisch geschachtelt und geordnet werden. Um ein JSON String zu valdieren wird jedoch eine Server.- oder Clientseitige
+        Funktionalität benötigt, die dieses beim parsen des Strings übernimmt. JSON wird von JavaScript nativ erkannt und eingebunden.
+        <h5>Gegenüberstellung</h5>
+        Um komplexe, typisierte Daten, die validiert werden müssen, zu übermitteln oder zu speichern eignet sich XML hervorragend.
+        Zumal XML auch wesentlich menschenlesbarer ist als JSON. Zur Übermittlung von größeren Datenmengen ( bsp.: WebGL-3d-Vectoren )
+        eignet sich JSON wesentlich mehr, da hierbei der Overhead von XML wegfällt.
+    </body>
+</html>

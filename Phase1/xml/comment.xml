@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<comments>
+    <rezept rezeptid="1">
+        <comment id="1">
+            <username>Horst</username>
+            <userid>20</userid>
+            <userpic></userpic>
+            <userexpirience value="3"/>
+            <commentwertung value="5"/>
+            <text>Hallo Welt</text>
+        </comment>
+        <comment id="2">
+            <username>Klaus</username>
+            <userid>21</userid>
+            <userpic></userpic>
+            <userexpirience value="2"/>
+            <commentwertung value="6"/>
+            <text>Foo Bar</text>
+        </comment>
+        <comment>
+            <username>User</username>
+            <userid>0</userid>
+            <text>Comment</text>
+        </comment>
+        <comment>
+            <username>User</username>
+            <userid>0</userid>
+            <text>Comment</text>
+        </comment>
+    </rezept>
+    <rezept rezeptid="2">
+        <comment id="1">
+            <username>Hans</username>
+            <userid>22</userid>
+            <userpic></userpic>
+            <userexpirience value="4"/>
+            <commentwertung value="1"/>
+            <text>GubbelGubbelGubbel</text>
+        </comment>
+    </rezept>
+</comments>

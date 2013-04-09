@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<comments
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='../Aufgabe3c-Comments.xsd'>
+    <rezept rezeptid="1">
+        <comment id="1">
+            <username>Horst</username>
+            <userid>20</userid>
+            <userpic>/pic/user/20.jpg</userpic>
+            <userexpirience value="3"></userexpirience>
+            <commentdate>01.01.1900</commentdate>
+            <commentwertung value="5"></commentwertung>
+            <text>Hallo Welt</text>
+        </comment>
+        <comment id="2">
+            <username>Klaus</username>
+            <userid>21</userid>
+            <userpic>/pic/user/21.jpg</userpic>
+            <userexpirience value="2"></userexpirience>
+            <commentdate>01.01.1901</commentdate>
+            <commentwertung value="6"></commentwertung>
+            <text>Foo Bar</text>
+        </comment>
+    </rezept>
+    <rezept rezeptid="2">
+        <comment id="1">
+            <username>Hans</username>
+            <userid>22</userid>
+            <userpic>/pic/user/22.jpg</userpic>
+            <userexpirience value="4"></userexpirience>
+            <commentdate>01.01.1902</commentdate>
+            <commentwertung value="1"></commentwertung>
+            <text>GubbelGubbelGubbel</text>
+        </comment>
+    </rezept>
+
+</comments>
